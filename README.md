@@ -122,7 +122,7 @@ To enlarge user story diagram's please click on image.
 
 #### User Survey
 
-![User Survey]{./images/user_survey.png}
+![User Survey](./images/user_survey.png)
 
 ---
 
@@ -132,8 +132,16 @@ To enlarge user story diagram's please click on image.
 
 The journey begins!
 
-Populated the Trello board with initial Part A tasks.
+Populated the Trello board with initial Part A tasks. Researched app ideas and extra technology.
 
 ![Trello Board 13th Nov](./images/13:11_trello.png)
+
+##### 14th Nov
+
+Decided on final app idea - Survey Application - started on wireframes, user stories, mind map and mood board.
+
+Continued with competitor research and learning extra tech - typescript.
+
+![Trello Board 14th Nov][./images/14:11_trello.png]
 
 ---
