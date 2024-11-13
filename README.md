@@ -30,6 +30,8 @@ The purpose of this app is to provide a straightforward and affordable alternati
 
 - Data Display:
 
+![Features Board](./images/features.png)
+
 ---
 
 ### Target Audience
@@ -104,9 +106,11 @@ Other technologies include:
 
 ### User Stories
 
+To enlarge user story diagram's please click on image.
+
 ##### 1. Sam's User Story
 
-![Sam's User Story Diagram](./images/SamUserStory.png)
+![Sam's User Story Diagram](./images/SamUS.png)
 
 ---
 
