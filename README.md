@@ -142,6 +142,6 @@ Decided on final app idea - Survey Application - started on wireframes, user sto
 
 Continued with competitor research and learning extra tech - typescript.
 
-![Trello Board 14th Nov][./images/14:11_trello.png]
+![Trello Board 14th Nov](./images/14:11_trello.png)
 
 ---
