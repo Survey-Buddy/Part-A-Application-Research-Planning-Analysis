@@ -104,6 +104,10 @@ Other technologies include:
 
 ### User Stories
 
+##### 1. Sam's User Story
+
+![Sam's User Story Diagram](./images/SamUserStory.png)
+
 ---
 
 ### Wireframes
@@ -118,6 +122,6 @@ The journey begins!
 
 Populated the Trello board with initial Part A tasks.
 
-(Trello Board 13th Nov)[./images/13:11_trello.png]
+![Trello Board 13th Nov](./images/13:11_trello.png)
 
 ---
