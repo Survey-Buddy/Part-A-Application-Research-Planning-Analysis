@@ -30,7 +30,7 @@ The purpose of this app is to provide a straightforward and affordable alternati
 
 - Data Display:
 
-![Features Board](./images/features.png)
+![Features Board](./images/features.jpg)
 
 ---
 
@@ -110,11 +110,19 @@ To enlarge user story diagram's please click on image.
 
 ##### 1. Sam's User Story
 
-![Sam's User Story Diagram](./images/SamUS.png)
+![Sam's User Story Diagram](./images/SamsUS.png)
 
 ---
 
 ### Wireframes
+
+#### Home Page
+
+![Home Page](./images/homepage.png)
+
+#### User Survey
+
+![User Survey]{./images/user_survey.png}
 
 ---
 
