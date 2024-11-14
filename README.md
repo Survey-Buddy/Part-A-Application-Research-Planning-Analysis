@@ -18,6 +18,10 @@ The purpose of this app is to provide a straightforward and affordable alternati
 
 ### Functionality / Features
 
+A Mind Map was used to document potential functionality and features.
+
+![Mind Map](./images/MindMap.jpg)
+
 - User Authorisation:
 
 - User Authentication:
