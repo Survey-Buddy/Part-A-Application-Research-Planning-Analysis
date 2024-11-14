@@ -128,6 +128,7 @@ Other technologies include:
 
 - TypeScript
   ![TypeScript logo](./images/Typescript.png)
+  <img src="./images/Typescript.png" alt="TypeScript logo" width="200" height="200" >
 - Boostrap
   ![Bootstrap logo](./images/Bootstrap.webp)
 - Chakra
