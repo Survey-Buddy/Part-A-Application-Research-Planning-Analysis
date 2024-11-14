@@ -36,6 +36,38 @@ A Mind Map was used to document potential functionality and features.
 
 ![Features Board](./images/features.jpg)
 
+### Survey Submission options
+
+1. Make API call to store question data after each answered question:
+
+**_Strengths:_**
+
+- Progress Saving
+- Real-Time Analytics
+- Adaptive Surveys
+  - Questions change based on answers
+
+**_Weaknesses:_**
+
+- Increased API Calls
+- Increased Backend Complexity
+- User Experience
+  - Delays between questions
+
+2. Make one API call to store all data at the end of the survey:
+
+**_Strengths:!_**
+
+- Reduced API Calls
+- Easier Backend Management
+- User Experience
+
+**_Weaknesses:_**
+
+- Data Loss
+  - If a user were to abandon the survey without submission, or their survey expires, their responses will be lost.
+- No Real-Time Updates
+
 ---
 
 ### Target Audience
@@ -85,6 +117,8 @@ A Mind Map was used to document potential functionality and features.
 
 The MERN technology stack was used to build this application:
 
+![MERN logo](https://www.almabetter.com/_next/image?url=%2Fassets%2Frefer-and-earn%2FDot%20grid.png&w=3840&q=75)
+
 - MongoDB
 - React
 - NodeJS
@@ -115,6 +149,10 @@ To enlarge user story diagram's please click on image.
 ##### 1. Sam's User Story
 
 ![Sam's User Story Diagram](./images/SamsUS.png)
+
+##### 2. Daisy's User Story
+
+![Daisy's User Story Diagram](./images/DaisysUS.png)
 
 ---
 
