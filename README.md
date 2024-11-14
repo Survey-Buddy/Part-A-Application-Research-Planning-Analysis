@@ -129,17 +129,29 @@ The MERN technology stack was used to build this application:
 Other technologies include:
 
 - TypeScript
-  <img src="./images/Typescript.png" alt="TypeScript logo" width="200" > <br/>
+  <img src="./images/Typescript.png" alt="TypeScript logo" width="100" >
+
   _"TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."_ - typescript.com
+
 - Boostrap
-  <img src="./images/Bootstrap.webp" alt="Bootstrap logo" width="200" > <br/>
+  <img src="./images/Bootstrap.webp" alt="Bootstrap logo" width="100" >
+
   _"Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins."_ - bootstrap.com
+
 - Chakra UI
-  <img src="./images/chakra.png" alt="Chakra logo" width="200" > <br/>
+  <img src="./images/chakra.png" alt="Chakra logo" width="200" >
+
+_"Accessible React components for building high-quality web apps and design systems."_ - chakra-ui.com
+
 - Mongoose
-  <img src="./images/mongoose.png" alt="Mongoose logo" width="200" > <br/>
+  <img src="./images/mongoose.png" alt="Mongoose logo" width="200" >
+
+_"Mongoose is an ODM (Object Data Modeling) library for MongoDB."_ - mongodb.com
+
 - Amazon S3
-  <img src="./images/AmazonS3.png" alt="Amazon S3 logo" width="200" > <br/>
+  <img src="./images/AmazonS3.png" alt="Amazon S3 logo" width="200" >
+
+_"Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance."_ - aws.amazon.com/s3
 
 ---
 
