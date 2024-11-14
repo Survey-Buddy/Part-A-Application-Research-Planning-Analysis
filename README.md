@@ -124,16 +124,22 @@ The MERN technology stack was used to build this application:
 - NodeJS
 - Express
 
+![MERN Architecture](./images/MernArchitecture.png)
+
 Other technologies include:
 
 - TypeScript
-  ![TypeScript logo](./images/Typescript.png)
   <img src="./images/Typescript.png" alt="TypeScript logo" width="200" height="200" >
+  _"TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."_ - typescript.com
 - Boostrap
-  ![Bootstrap logo](./images/Bootstrap.webp)
-- Chakra
+  <img src="./images/Bootstrap.webp" alt="Bootstrap logo" width="200" height="200" >
+  _"Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins."_ - bootstrap.com
+- Chakra UI
+  <img src="./images/chakra.png" alt="Chakra logo" width="200" height="200" >
 - Mongoose
+  <img src="./images/mongoose.png" alt="Mongoose logo" width="200" height="200" >
 - Amazon S3
+  <img src="./images/AmazonS3.png" alt="Amazon S3 logo" width="200" height="200" >
 
 ---
 
