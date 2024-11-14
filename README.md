@@ -117,7 +117,7 @@ A Mind Map was used to document potential functionality and features.
 
 The MERN technology stack was used to build this application:
 
-![MERN logo](https://www.almabetter.com/_next/image?url=%2Fassets%2Frefer-and-earn%2FDot%20grid.png&w=3840&q=75)
+![MERN logo](./images/mern.webp)
 
 - MongoDB
 - React
@@ -127,7 +127,9 @@ The MERN technology stack was used to build this application:
 Other technologies include:
 
 - TypeScript
+  ![TypeScript logo](./images/Typescript.png)
 - Boostrap
+  ![Bootstrap logo](./images/Bootstrap.webp)
 - Chakra
 - Mongoose
 - Amazon S3
