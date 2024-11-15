@@ -207,4 +207,10 @@ Continued with competitor research and learning extra tech - typescript.
 
 ![Trello Board 14th Nov](./images/14:11_trello.png)
 
+##### 15th Nov
+
+Completed Mood Board and continued learning TypeScript for React.
+
+![Trello Board 15th Nov](./images/15:11_trello.png)
+
 ---
