@@ -121,6 +121,8 @@ The MERN technology stack was used to build this application:
 
 - MongoDB
 - React
+  - react hook form
+  - react router dom
 - NodeJS
 - Express
 
@@ -156,6 +158,10 @@ _"Amazon Simple Storage Service (Amazon S3) is an object storage service offerin
 ---
 
 ### Dataflow Diagram
+
+#### High Level Data Flow Diagram
+
+![High Level Data Flow Diagram](./images/HL_Flowchart.jpg)
 
 ---
 
