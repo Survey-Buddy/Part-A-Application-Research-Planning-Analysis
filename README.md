@@ -161,11 +161,57 @@ _"Amazon Simple Storage Service (Amazon S3) is an object storage service offerin
 
 #### High Level Data Flow Diagram
 
-![High Level Data Flow Diagram](./images/HL_Flowchart.jpg)
+![High Level Data Flow Diagram](./images/HL_Flowchart.jpg)\
+
+High-Level Overview of the Survey App:
+
+- _External entities:_
+
+  - Survey Creators: Submit survey details to create surveys.
+  - Survey Respondents: Provide responses by filling out surveys.
+
+- _Central system:_
+
+  - Survey Application System processes all user requests.
+
+- _Data flows:_
+
+  - Survey Creators → Submit survey details → Survey Application System.
+  - Survey Respondents → Submit survey responses → Survey Application System.
+  - Survey Application System → Fetch survey data and results → Survey Creators.
+
+- _Data storage:_
+
+  - All survey data (e.g., questions, responses) is securely stored in MongoDB Atlas.
 
 #### Level 1 Data Flow Diagram
 
 ![Level 1 Data Flow Diagram](./images/Level1_FlowChart.jpg)
+
+Breakdown of Processes in the Survey Application:
+
+- _Create Survey:_
+
+  - Survey Creator inputs survey details (title, description, questions).
+  - Data is sent via RESTful API to the backend.
+  - Backend validates and stores the survey in MongoDB Atlas.
+
+- _Distribute Survey:_
+
+  - A unique link (/survey/{surveyId}) is generated and shared with respondents.
+  - Link routes users to a dynamically rendered survey page.
+
+- _Submit Responses:_
+
+  - Respondent answers survey questions.
+  - Responses are sent via API to the backend for validation and storage.
+  - Stored responses are associated with the respective survey in MongoDB Atlas.
+
+- View Results:
+
+  - Survey Creator requests survey analytics.
+  - Backend processes stored responses and generates aggregated data.
+  - Data is returned to the frontend and visualised using D3.js charts.
 
 ---
 
