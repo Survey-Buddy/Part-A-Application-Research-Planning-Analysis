@@ -269,4 +269,10 @@ Completed Mood Board and continued learning TypeScript for React.
 
 ![Trello Board 15th Nov](./images/15:11_trello.png)
 
+##### 17th Nov
+
+Completed competitor research and started on Data Flow Diagrams.
+
+![Trello Board 17th Nov](./images/17:11_trello.png)
+
 ---
