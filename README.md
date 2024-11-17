@@ -163,6 +163,10 @@ _"Amazon Simple Storage Service (Amazon S3) is an object storage service offerin
 
 ![High Level Data Flow Diagram](./images/HL_Flowchart.jpg)
 
+#### Level 1 Data Flow Diagram
+
+![Level 1 Data Flow Diagram](./images/Level1_Flowchart.jpg)
+
 ---
 
 ### Application Architecture Diagram
