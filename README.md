@@ -10,12 +10,6 @@ With just a few clicks, you can design a custom survey tailored to your needs, s
 
 Built with a focus on simplicity and functionality, this app streamlines the process of creating, distributing, and analysing surveys, making it the perfect tool for anyone looking to gather meaningful information quickly and efficiently.
 
-##### Mood Board
-
-To analyse competitor applications and gain a deeper understanding of their features and user interfaces, I created a Mood Board showcasing aesthetics and layouts that resonated with me.
-
-![Mood Board](./images/MoodBoard.png)
-
 #### Purpose
 
 The purpose of this app is to provide a straightforward and affordable alternative to complicated and feature-heavy survey platforms. Many existing options overwhelm users with unnecessary features and costs. This app focuses on simplicity, ensuring users can quickly create, share, and analyse surveys without distractions or hidden expenses. It's perfect for those who value ease of use and clarity over complexity.
@@ -24,7 +18,7 @@ The purpose of this app is to provide a straightforward and affordable alternati
 
 ### Functionality / Features
 
-A Mind Map was used to document potential functionality and features.
+A Mind Map was created to document potential functionality and features.
 
 ![Mind Map](./images/MindMap.jpg)
 
@@ -42,7 +36,15 @@ A Mind Map was used to document potential functionality and features.
 
 ![Features Board](./images/features.jpg)
 
-### Survey Submission options
+##### Mood Board
+
+To analyse competitor applications and gain a deeper understanding of their features and user interfaces, I created a Mood Board showcasing aesthetics and layouts that resonated with me.
+
+![Mood Board](./images/MoodBoard.png)
+
+### Crucial Decisions
+
+#### Survey Submission options
 
 1. Make API call to store question data after each answered question:
 
@@ -73,6 +75,10 @@ A Mind Map was used to document potential functionality and features.
 - Data Loss
   - If a user were to abandon the survey without submission, or their survey expires, their responses will be lost.
 - No Real-Time Updates
+
+#### TypeScript
+
+After discovering how TypeScript's interface feature can strengthen understanding when building React components, I decided to deepen my understanding of TypeScript's React functionality to incorporate it into my application. This required additional learning, which I supported by completing an online 'Coding With Mosh' course.
 
 ---
 
@@ -137,26 +143,31 @@ The MERN technology stack was used to build this application:
 Other technologies include:
 
 - TypeScript
+
   <img src="./images/Typescript.png" alt="TypeScript logo" width="100" >
 
   _"TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."_ - typescript.com
 
 - Boostrap
+
   <img src="./images/Bootstrap.webp" alt="Bootstrap logo" width="100" >
 
   _"Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins."_ - bootstrap.com
 
 - Chakra UI
+
   <img src="./images/chakra.png" alt="Chakra logo" width="200" >
 
 _"Accessible React components for building high-quality web apps and design systems."_ - chakra-ui.com
 
 - Mongoose
+
   <img src="./images/mongoose.png" alt="Mongoose logo" width="200" >
 
 _"Mongoose is an ODM (Object Data Modeling) library for MongoDB."_ - mongodb.com
 
 - Amazon S3
+
   <img src="./images/AmazonS3.png" alt="Amazon S3 logo" width="200" >
 
 _"Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance."_ - aws.amazon.com/s3
