@@ -230,6 +230,10 @@ After discovering how TypeScript's interface feature can strengthen understandin
 
 ### Dataflow Diagram
 
+**Data Flow Legend**
+
+![Data Flow Legend](./images/DataFlow_Legend.jpg)
+
 #### High Level Data Flow Diagram
 
 ![High Level Data Flow Diagram](./images/HL_Flowchart.jpg)
@@ -284,7 +288,7 @@ Breakdown of Processes in the Survey Application:
   - Backend processes stored responses and generates aggregated data.
   - Data is returned to the frontend and visualised using D3.js charts.
 
-#### Level 2: Respondent Survey Completion
+#### Level 2: Respondent Survey Webpage
 
 ![Survey Respondent Data Flow Diagram](./images/Flowchart_Respondent.jpg)
 
