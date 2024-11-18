@@ -138,17 +138,45 @@ A Mind Map was created to explore and document potential application functionali
 
 ![Mind Map](./images/MindMap.jpg)
 
-- User Authorisation:
+### Minimum Viable Product Features
 
-- User Authentication:
+**User Authorisation:** Ensures that only survey creators can access and manage their own surveys and data, stopping unauthorised access.
 
-- Create a New Survey:
+**User Authentication:** Verifies user identities through secure login, ensuring only registered users can access their accounts.
 
-- Survey Recipients:
+**Create a New Survey:** Allows users to design and customise surveys by adding questions, choosing formats, and setting preferences.
 
-- Data Collection:
+**Survey Links:** Automatically generates unique links for each survey, making it easy to share with others for responses.
 
-- Data Display:
+**Survey Analytics:** Provides survey creators with clear visual insights and summaries of survey results, using charts and graphs.
+
+**Data Display:** Displays survey results in a user-friendly layout, showing individual responses and aggregated data where applicable.
+
+### Stretch Goal Features
+
+**Written Summaries:** Generate detailed written summaries of survey results for easy interpretation.
+
+**Large Language Model Response Summary:** Utilise a large language model (e.g., OpenAI API) to create advanced, natural-language summaries of survey data.
+
+**Targeted Survey:** Allow creators to tailor surveys for specific audiences based on criteria like demographics or behavior.
+
+**Authorisation:** Ensure only authorised respondents can access surveys via unique links to maintain privacy and data integrity.
+
+**Rewards:** Introduce a rewards system for respondents, such as redeemable points or gift cards, to incentivise participation.
+
+**Images:** Add carousel-style image questions to support visual responses and enhance survey engagement.
+
+**Amazon S3 Storage:** Use Amazon S3 to securely store large files, such as images or multimedia responses, for scalable data management.
+
+**Pricing:** Implement flexible pricing plans to accommodate survey creators with different needs, from free basic plans to premium features.
+
+**Interactive Questions:** Add drag-and-drop question types to create a more engaging and user-friendly survey experience.
+
+**Question Translation:** Provide automatic question translations to reach a wider audience and support multilingual respondents.
+
+**Auto Reminder Emails:** Send automated reminders to respondents who haven’t completed the survey to boost response rates.
+
+**QR Code Survey Links:** Generate QR codes for surveys, making it easier for users to share and access surveys via mobile devices.
 
 ![Features Board](./images/features.jpg)
 
@@ -304,8 +332,6 @@ Signing up to create a new SurveyBuddy account.
 
 ---
 
-### Low Fidelity Wireframes
-
 ### High Fidelity Wireframes
 
 #### NavBar
@@ -337,6 +363,7 @@ Interactions:
 
 - Click
   - Submit - Submits survey response data to database
+  - Multi Choice - Selects answer to be stored in database on submit
 
 #### Create Survey
 
@@ -366,8 +393,8 @@ Interactions:
 Interactions:
 
 - Click
-  - Survey - takes user to editable survey
-  - Link - provides a link copied link to respondent survey
+  - Survey - Navigates to analytics page
+  - Link - Provides a copiable link to respondent survey
 
 #### User Account
 
