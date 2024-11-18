@@ -12,17 +12,6 @@
 
 ---
 
-### Logo Ideas
-
-1.  ![SurveyBuddy Logo idea 1](./images/SB_logo1.png)
-    ![SurveyBuddy Logo idea 1 Green](./images/SB_logo1green.png)
-
-2.  ![SurveyBuddy Logo idea 2](./images/SB_logo2.png)
-
-3.  ![SurveyBuddy Logo idea 3](./images/SB_logo3.png)
-
-4.  ![SurveyBuddy Logo idea 4](./images/SB_logo4.png)
-
 ### Application Description
 
 This survey app is designed to make creating and managing surveys effortless. Whether you’re a student collecting data for a project, an individual seeking personal insights, or a business gathering customer feedback, this app provides a simple and intuitive experience for all users.
@@ -239,7 +228,34 @@ After discovering how TypeScript's interface feature can strengthen understandin
 
 ---
 
+### Logo Ideas
+
+1.
+
+![SurveyBuddy Logo idea 1](./images/SB_logo1.png)
+![SurveyBuddy Logo idea 1 Green](./images/SB_logo1green.png)
+
+2.
+
+![SurveyBuddy Logo idea 2](./images/SB_logo2.png)
+
+3.
+
+![SurveyBuddy Logo idea 3](./images/SB_logo3.png)
+
+4.
+
+![SurveyBuddy Logo idea 4](./images/SB_logo4.png)
+
+---
+
+### Style Guide
+
+---
+
 ### Dataflow Diagram
+
+---
 
 **Data Flow Legend**
 
@@ -299,9 +315,15 @@ Breakdown of Processes in the Survey Application:
   - Backend processes stored responses and generates aggregated data.
   - Data is returned to the frontend and visualised using D3.js charts.
 
-#### Level 2: Respondent Survey Webpage
+### Level 2 Diagrams
+
+#### Respondent Survey Retrieval
 
 ![Survey Respondent Data Flow Diagram](./images/Flowchart_Respondent.jpg)
+
+#### Respondent Survey Completion
+
+![Survey Completion](./images/Flowchart_SurveyCompletion.jpg)
 
 ---
 
