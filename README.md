@@ -284,6 +284,10 @@ Breakdown of Processes in the Survey Application:
   - Backend processes stored responses and generates aggregated data.
   - Data is returned to the frontend and visualised using D3.js charts.
 
+#### Level 2: Respondent Survey Completion
+
+![Survey Respondent Data Flow Diagram](./images/Flowchart_Respondent.jpg)
+
 ---
 
 ### Application Architecture Diagram
