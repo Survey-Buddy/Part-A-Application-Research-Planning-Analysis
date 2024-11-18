@@ -237,11 +237,23 @@ To enlarge user story diagram's please click on image.
 
 #### Home Page
 
-![Home Page](./images/homepage.png)
+![Home Page](./images/WF_1.png)
 
-#### User Survey
+#### Respondent Survey
 
-![User Survey](./images/user_survey.png)
+![Respondent Survey](./images/WF-2.png)
+
+#### Create Survey
+
+![Create Survey](./images/WF-3.png)
+
+#### Survey Analytics
+
+![Survey Analytics](./images/WF-4.png)
+
+#### User Account
+
+![User Account](./images/WF-5.png)
 
 ---
 
