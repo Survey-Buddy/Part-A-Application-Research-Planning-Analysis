@@ -332,6 +332,10 @@ Signing up to create a new SurveyBuddy account.
 
 ![User Account](./images/WF_5.png)
 
+#### Interactive Wireframe Diagram
+
+![Interactive Wireframe Diagram](./images/InteractiveWF.png)
+
 ---
 
 ### Project Management Tracking
