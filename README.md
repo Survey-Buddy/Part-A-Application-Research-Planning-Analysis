@@ -2,7 +2,7 @@
 
 ## Part A
 
-#### Front-End Repositiory here.
+#### Front-End Repositiory [here](https://github.com/Survey-Buddy/surveybuddy-client).
 
 #### Back-end Repository here.
 
@@ -253,17 +253,25 @@ After discovering how TypeScript's interface feature can strengthen understandin
 
 ---
 
-### Dataflow Diagram
+### Data Flow Diagram
+
+#### Data Flow Diagram Methods & Symbols
+
+\*For this application, the Yourdon + De Marco convention will be used.
+
+![Data Flow Diagram Methods and Symbols](images/Data-Flow-Diagram-Methods-&-Symbols.webp)
 
 ---
 
-**Data Flow Legend**
+## Flow Charts
 
-![Data Flow Legend](./images/DataFlow_Legend.jpg)
+**Flow Chart Legend**
 
-#### High Level Data Flow Diagram
+![Flow Chart Legend](./images/DataFlow_Legend.jpg)
 
-![High Level Data Flow Diagram](./images/HL_Flowchart.jpg)
+#### High Level Flow Chart Diagram
+
+![High Level Flow Chart](./images/HL_Flowchart.jpg)
 
 High-Level Overview of the Survey App:
 
@@ -286,9 +294,9 @@ High-Level Overview of the Survey App:
 
   - All survey data (e.g., questions, responses) is securely stored in MongoDB Atlas.
 
-#### Level 1 Data Flow Diagram
+#### Level 1 Flow Chart Diagram
 
-![Level 1 Data Flow Diagram](./images/Level1_FlowChart.jpg)
+![Level 1 Flow Chart](./images/Level1_FlowChart.jpg)
 
 Breakdown of Processes in the Survey Application:
 
@@ -315,15 +323,19 @@ Breakdown of Processes in the Survey Application:
   - Backend processes stored responses and generates aggregated data.
   - Data is returned to the frontend and visualised using D3.js charts.
 
-### Level 2 Diagrams
+### Level 2 Flow Chart Diagrams
 
 #### Respondent Survey Retrieval
 
-![Survey Respondent Data Flow Diagram](./images/Flowchart_Respondent.jpg)
+![Survey Respondent Flow Chart](./images/Flowchart_Respondent.jpg)
 
 #### Respondent Survey Completion
 
-![Survey Completion](./images/Flowchart_SurveyCompletion.jpg)
+![Survey Completion Flow Chart](./images/Flowchart_SurveyCompletion.jpg)
+
+#### New Survey Creation
+
+![New Survey Flow Chart](./images/Flowchart_NewSurvey.jpg)
 
 ---
 
