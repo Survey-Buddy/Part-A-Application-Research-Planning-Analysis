@@ -2,19 +2,17 @@
 
 ## Part A
 
----
+#### Front-End Repositiory here.
 
-### Front-End Repositiory here.
+#### Back-end Repository here.
 
-### Back-end Repository here.
+#### Presentation here.
 
-### Presentation here.
-
-### Project Management Trello Board here.
+#### Project Management Trello Board here.
 
 ---
 
-### Application Description
+## Application Description
 
 This survey app is designed to make creating and managing surveys effortless. Whether you’re a student collecting data for a project, an individual seeking personal insights, or a business gathering customer feedback, this app provides a simple and intuitive experience for all users.
 
@@ -24,13 +22,13 @@ Built with a focus on simplicity and functionality, this app streamlines the pro
 
 ---
 
-### Application Purpose
+## Application Purpose
 
 The purpose of this app is to provide a straightforward and affordable alternative to complicated and feature-heavy survey platforms. Many existing options overwhelm users with unnecessary features and costs. This app focuses on simplicity, ensuring users can quickly create, share, and analyse surveys without distractions or hidden expenses. It's perfect for those who value ease of use and clarity over complexity.
 
 ---
 
-### Target Audience
+## Target Audience
 
 ##### Students:
 
@@ -73,7 +71,7 @@ The purpose of this app is to provide a straightforward and affordable alternati
 
 ---
 
-### Technology Stack
+## Technology Stack
 
 The MERN technology stack was used to build this application.
 
@@ -89,10 +87,10 @@ A popular modern tech stacks used throughout industry is the MERN stack, it uses
 
 The acronym for these stacks is:
 
-**M** – MongoDB for the database
-**E** – Express JS for the API server
-**R** – React for the User Interface
-**N** – Node JS for the runtime server environment
+**M** – MongoDB for the database <br>
+**E** – Express JS for the API server <br>
+**R** – React for the User Interface <br>
+**N** – Node JS for the runtime server environment <br>
 
 ![MERN logo](./images/mern.webp)
 
@@ -134,7 +132,7 @@ _"Amazon Simple Storage Service (Amazon S3) is an object storage service offerin
 
 ---
 
-### Functionality / Features
+## Functionality / Features
 
 A Mind Map was created to explore and document potential application functionality and features.
 
@@ -154,7 +152,7 @@ A Mind Map was created to explore and document potential application functionali
 
 ![Features Board](./images/features.jpg)
 
-#### Mood Board
+### Mood Board
 
 To analyse competitor applications and gain a deeper understanding of their features and user interfaces, I created a Mood Board showcasing aesthetics and layouts that resonated with me.
 
@@ -162,9 +160,9 @@ To analyse competitor applications and gain a deeper understanding of their feat
 
 ---
 
-### Crucial Decisions
+## Crucial Decisions
 
-#### Survey Submission options
+### Survey Submission options
 
 1. Make API call to store question data after each answered question:
 
@@ -196,15 +194,15 @@ To analyse competitor applications and gain a deeper understanding of their feat
   - If a user were to abandon the survey without submission, or their survey expires, their responses will be lost.
 - No Real-Time Updates
 
-#### TypeScript
+### TypeScript
 
 After discovering how TypeScript's interface feature can strengthen understanding when building React components, I decided to deepen my understanding of TypeScript's React functionality to incorporate it into my application. This required additional learning, which I supported by completing an online 'Coding With Mosh' course.
 
 ---
 
-### Dataflow Diagram
+## Dataflow Diagram
 
-#### High Level Data Flow Diagram
+### High Level Data Flow Diagram
 
 ![High Level Data Flow Diagram](./images/HL_Flowchart.jpg)\
 
@@ -229,7 +227,7 @@ High-Level Overview of the Survey App:
 
   - All survey data (e.g., questions, responses) is securely stored in MongoDB Atlas.
 
-#### Level 1 Data Flow Diagram
+### Level 1 Data Flow Diagram
 
 ![Level 1 Data Flow Diagram](./images/Level1_FlowChart.jpg)
 
@@ -260,53 +258,75 @@ Breakdown of Processes in the Survey Application:
 
 ---
 
-### Application Architecture Diagram
+## Application Architecture Diagram
 
 ---
 
-### User Stories
+## User Stories
 
 To enlarge user story diagram's please click on image.
 
-##### 1. Sam's User Story
+### 1. Sam's User Story
+
+#### Creating a new survey.
 
 ![Sam's User Story Diagram](./images/SamsUS.png)
 
-##### 2. Daisy's User Story
+### 2. Daisy's User Story
+
+#### Completing an existing survey.
 
 ![Daisy's User Story Diagram](./images/DaisysUS.png)
 
+### 3. Sarah's User Story
+
+#### Viewing the analytics page.
+
+![Sarah's User Sotry Diagram](./images/SarahsUS.png)
+
+### 4. Tim's User Story
+
+#### Finding a survey link and emailing it to a friend.
+
+![Tim's User Story Diagram](./images/Tim'sUS.png)
+
+### 5. Alice's User Story
+
+#### Navigating to the account page and logging out.
+
+![Alice's User Story Diagram](./images/Alice'sUS.png)
+
 ---
 
-### Low Fidelity Wireframes
+## Low Fidelity Wireframes
 
-### High Fidelity Wireframes
+## High Fidelity Wireframes
 
-#### Home Page
+### Home Page
 
 ![Home Page](./images/WF_1.png)
 
-#### Respondent Survey
+### Respondent Survey
 
 ![Respondent Survey](./images/WF_2.png)
 
-#### Create Survey
+### Create Survey
 
 ![Create Survey](./images/WF_3.png)
 
-#### Survey Analytics
+### Survey Analytics
 
 ![Survey Analytics](./images/WF_4.png)
 
-#### User Account
+### User Account
 
 ![User Account](./images/WF_5.png)
 
 ---
 
-### Project Management Tracking
+## Project Management Tracking
 
-##### 13th Nov
+### 13th Nov
 
 The journey begins!
 
@@ -314,7 +334,7 @@ Populated the Trello board with initial Part A tasks. Researched app ideas and e
 
 ![Trello Board 13th Nov](./images/13:11_trello.png)
 
-##### 14th Nov
+### 14th Nov
 
 Decided on final app idea - Survey Application - started on wireframes, user stories, mind map and mood board.
 
@@ -322,13 +342,13 @@ Continued with competitor research and learning extra tech - typescript.
 
 ![Trello Board 14th Nov](./images/14:11_trello.png)
 
-##### 15th Nov
+### 15th Nov
 
 Completed Mood Board and continued learning TypeScript for React.
 
 ![Trello Board 15th Nov](./images/15:11_trello.png)
 
-##### 17th Nov
+### 17th Nov
 
 Completed competitor research and started on Data Flow Diagrams.
 
