@@ -308,33 +308,81 @@ Signing up to create a new SurveyBuddy account.
 
 ### High Fidelity Wireframes
 
+#### NavBar
+
+![Nav Bar](./images/NavbarWF.png)
+
+Interactions:
+
+- Click
+  - About - navigates to About page
+  - Surveys - navigates to Surveys page
+  - Recipients - navigates to Recipients page
+  - Analytics - navigates to Analytics page
+
 #### Home Page
 
 ![Home Page](./images/WF_1.png)
+
+Interactions:
+
+- Click
+  - New Survey - navigates to create a new survey page
 
 #### Respondent Survey
 
 ![Respondent Survey](./images/WF_2.png)
 
+Interactions:
+
+- Click
+  - Submit - Submits survey response data to database
+
 #### Create Survey
 
 ![Create Survey](./images/WF_3.png)
+
+Interactions:
+
+- Click
+  - Question Type - Select type of question from drop down menu
+  - Previous - Returns to previous question input
+  - Next - Navigates to next question input
+  - Submit - Submit's survey creator data to database
 
 #### Survey Analytics
 
 ![Survey Analytics](./images/WF_4.png)
 
+Interactions:
+
+- Click
+  - Image - to enlarge image
+
 #### Survey's Page
 
 ![Survey's Page](./images/WF_6.png)
+
+Interactions:
+
+- Click
+  - Survey - takes user to editable survey
+  - Link - provides a link copied link to respondent survey
 
 #### User Account
 
 ![User Account](./images/WF_5.png)
 
+Interactions
+
+- Click
+  - Log Out - Logs user out of account
+
 #### Interactive Wireframe Diagram
 
 ![Interactive Wireframe Diagram](./images/InteractiveWF.png)
+
+The UI for the survey app is designed to be simple and logical, ensuring an intuitive user experience. The wireframes above demonstrate exceptional planning of the project’s flow and structure, showcasing thoughtful space distribution, clear content prioritisation, and seamless navigation. They outline the intended actions, core functions, and relationships between screens, providing a comprehensive blueprint for the app’s development and ensuring a cohesive user journey.
 
 ---
 
