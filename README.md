@@ -241,19 +241,19 @@ To enlarge user story diagram's please click on image.
 
 #### Respondent Survey
 
-![Respondent Survey](./images/WF-2.png)
+![Respondent Survey](./images/WF_2.png)
 
 #### Create Survey
 
-![Create Survey](./images/WF-3.png)
+![Create Survey](./images/WF_3.png)
 
 #### Survey Analytics
 
-![Survey Analytics](./images/WF-4.png)
+![Survey Analytics](./images/WF_4.png)
 
 #### User Account
 
-![User Account](./images/WF-5.png)
+![User Account](./images/WF_5.png)
 
 ---
 
