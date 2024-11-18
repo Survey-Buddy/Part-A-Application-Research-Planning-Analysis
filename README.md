@@ -1,8 +1,20 @@
 # Survey Buddy
 
-## build-partA
+## Part A
 
-### Description
+---
+
+### Front-End Repositiory here.
+
+### Back-end Repository here.
+
+### Presentation here.
+
+### Project Management Trello Board here.
+
+---
+
+### Application Description
 
 This survey app is designed to make creating and managing surveys effortless. Whether you’re a student collecting data for a project, an individual seeking personal insights, or a business gathering customer feedback, this app provides a simple and intuitive experience for all users.
 
@@ -10,75 +22,11 @@ With just a few clicks, you can design a custom survey tailored to your needs, s
 
 Built with a focus on simplicity and functionality, this app streamlines the process of creating, distributing, and analysing surveys, making it the perfect tool for anyone looking to gather meaningful information quickly and efficiently.
 
-#### Purpose
-
-The purpose of this app is to provide a straightforward and affordable alternative to complicated and feature-heavy survey platforms. Many existing options overwhelm users with unnecessary features and costs. This app focuses on simplicity, ensuring users can quickly create, share, and analyse surveys without distractions or hidden expenses. It's perfect for those who value ease of use and clarity over complexity.
-
 ---
 
-### Functionality / Features
+### Application Purpose
 
-A Mind Map was created to document potential functionality and features.
-
-![Mind Map](./images/MindMap.jpg)
-
-- User Authorisation:
-
-- User Authentication:
-
-- Create a New Survey:
-
-- Survey Recipients:
-
-- Data Collection:
-
-- Data Display:
-
-![Features Board](./images/features.jpg)
-
-##### Mood Board
-
-To analyse competitor applications and gain a deeper understanding of their features and user interfaces, I created a Mood Board showcasing aesthetics and layouts that resonated with me.
-
-![Mood Board](./images/MoodBoard.png)
-
-### Crucial Decisions
-
-#### Survey Submission options
-
-1. Make API call to store question data after each answered question:
-
-**_Strengths:_**
-
-- Progress Saving
-- Real-Time Analytics
-- Adaptive Surveys
-  - Questions change based on answers
-
-**_Weaknesses:_**
-
-- Increased API Calls
-- Increased Backend Complexity
-- User Experience
-  - Delays between questions
-
-2. Make one API call to store all data at the end of the survey:
-
-**_Strengths:!_**
-
-- Reduced API Calls
-- Easier Backend Management
-- User Experience
-
-**_Weaknesses:_**
-
-- Data Loss
-  - If a user were to abandon the survey without submission, or their survey expires, their responses will be lost.
-- No Real-Time Updates
-
-#### TypeScript
-
-After discovering how TypeScript's interface feature can strengthen understanding when building React components, I decided to deepen my understanding of TypeScript's React functionality to incorporate it into my application. This required additional learning, which I supported by completing an online 'Coding With Mosh' course.
+The purpose of this app is to provide a straightforward and affordable alternative to complicated and feature-heavy survey platforms. Many existing options overwhelm users with unnecessary features and costs. This app focuses on simplicity, ensuring users can quickly create, share, and analyse surveys without distractions or hidden expenses. It's perfect for those who value ease of use and clarity over complexity.
 
 ---
 
@@ -125,18 +73,30 @@ After discovering how TypeScript's interface feature can strengthen understandin
 
 ---
 
-#### Tech Stack
+### Technology Stack
 
-The MERN technology stack was used to build this application:
+The MERN technology stack was used to build this application.
+
+MongoDB explains a tech stack as…
+
+_‘Tech stacks are sets of technologies that are stacked together to build any application.’_
+
+Since no one software alone allows for the ideal full development of an application, multiple technologies are stacked together to facilitate the building of web applications that are easier to maintain and are scalable _(What Is A Technology Stack? Tech Stacks Explained n.d.)_.
+
+![Tech Stack](./images/TechStack.png)
+
+A popular modern tech stacks used throughout industry is the MERN stack, it uses JavaScript for the front end and server-side technologies, accompanied by MongoDB, a non-relational database management system to perform CRUD operations. These tech stacks use technologies that are JavaScript focused and are known to work well together, they enable a streamlined and unified development process because the technologies are frameworks and libraries of a single language, that allows for code reusability (MongoDB n.d.).
+
+The acronym for these stacks is:
+
+**M** – MongoDB for the database
+**E** – Express JS for the API server
+**R** – React for the User Interface
+**N** – Node JS for the runtime server environment
 
 ![MERN logo](./images/mern.webp)
 
-- MongoDB
-- React
-  - react hook form
-  - react router dom
-- NodeJS
-- Express
+Here is a visual guide of the MERN stack, that displays the overall structure for an app developed using this stack and which technologies interact with each other. The front-end and database operate independently, interacting only with the server-side Express JS and Node JS API environment.
 
 ![MERN Architecture](./images/MernArchitecture.png)
 
@@ -171,6 +131,74 @@ _"Mongoose is an ODM (Object Data Modeling) library for MongoDB."_ - mongodb.com
   <img src="./images/AmazonS3.png" alt="Amazon S3 logo" width="200" >
 
 _"Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance."_ - aws.amazon.com/s3
+
+---
+
+### Functionality / Features
+
+A Mind Map was created to explore and document potential application functionality and features.
+
+![Mind Map](./images/MindMap.jpg)
+
+- User Authorisation:
+
+- User Authentication:
+
+- Create a New Survey:
+
+- Survey Recipients:
+
+- Data Collection:
+
+- Data Display:
+
+![Features Board](./images/features.jpg)
+
+#### Mood Board
+
+To analyse competitor applications and gain a deeper understanding of their features and user interfaces, I created a Mood Board showcasing aesthetics and layouts that resonated with me.
+
+![Mood Board](./images/MoodBoard.png)
+
+---
+
+### Crucial Decisions
+
+#### Survey Submission options
+
+1. Make API call to store question data after each answered question:
+
+**_Strengths:_**
+
+- Progress Saving
+- Real-Time Analytics
+- Adaptive Surveys
+  - Questions change based on answers
+
+**_Weaknesses:_**
+
+- Increased API Calls
+- Increased Backend Complexity
+- User Experience
+  - Delays between questions
+
+2. Make one API call to store all data at the end of the survey:
+
+**_Strengths:!_**
+
+- Reduced API Calls
+- Easier Backend Management
+- User Experience
+
+**_Weaknesses:_**
+
+- Data Loss
+  - If a user were to abandon the survey without submission, or their survey expires, their responses will be lost.
+- No Real-Time Updates
+
+#### TypeScript
+
+After discovering how TypeScript's interface feature can strengthen understanding when building React components, I decided to deepen my understanding of TypeScript's React functionality to incorporate it into my application. This required additional learning, which I supported by completing an online 'Coding With Mosh' course.
 
 ---
 
@@ -250,7 +278,9 @@ To enlarge user story diagram's please click on image.
 
 ---
 
-### Wireframes
+### Low Fidelity Wireframes
+
+### High Fidelity Wireframes
 
 #### Home Page
 
