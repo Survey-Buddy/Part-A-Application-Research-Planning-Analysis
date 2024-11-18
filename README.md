@@ -296,6 +296,12 @@ Navigating to the account page and logging out.
 
 ![Alice's User Story Diagram](./images/Alice'sUS.png)
 
+#### 6. John's User Story
+
+Signing up to create a new SurveyBuddy account.
+
+![John's User Story Diagram](./images/John'sUS.png)
+
 ---
 
 ### Low Fidelity Wireframes
@@ -317,6 +323,10 @@ Navigating to the account page and logging out.
 #### Survey Analytics
 
 ![Survey Analytics](./images/WF_4.png)
+
+#### Survey's Page
+
+![Survey's Page](./images/WF_6.png)
 
 #### User Account
 
