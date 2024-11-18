@@ -14,14 +14,14 @@
 
 ### Logo Ideas
 
-1. ![SurveyBuddy Logo idea 1](./images/SB_logo1.png)
-   Green ![SurveyBuddy Logo idea 1 Green](./images/SB_logo1green.png)
+1.  ![SurveyBuddy Logo idea 1](./images/SB_logo1.png)
+    ![SurveyBuddy Logo idea 1 Green](./images/SB_logo1green.png)
 
-2. ![SurveyBuddy Logo idea 2](./images/SB_logo2.png)
+2.  ![SurveyBuddy Logo idea 2](./images/SB_logo2.png)
 
-3. ![SurveyBuddy Logo idea 3](./images/SB_logo3.png)
+3.  ![SurveyBuddy Logo idea 3](./images/SB_logo3.png)
 
-4. ![SurveyBuddy Logo idea 4](./images/SB_logo4.png)
+4.  ![SurveyBuddy Logo idea 4](./images/SB_logo4.png)
 
 ### Application Description
 
