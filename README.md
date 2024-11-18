@@ -162,7 +162,7 @@ To analyse competitor applications and gain a deeper understanding of their feat
 
 ### Crucial Decisions
 
-#### Survey Submission options
+### Survey Submission options
 
 1. Make API call to store question data after each answered question:
 
@@ -182,7 +182,7 @@ To analyse competitor applications and gain a deeper understanding of their feat
 
 2. Make one API call to store all data at the end of the survey:
 
-**_Strengths:!_**
+**_Strengths:_**
 
 - Reduced API Calls
 - Easier Backend Management
@@ -194,7 +194,7 @@ To analyse competitor applications and gain a deeper understanding of their feat
   - If a user were to abandon the survey without submission, or their survey expires, their responses will be lost.
 - No Real-Time Updates
 
-#### TypeScript
+### TypeScript
 
 After discovering how TypeScript's interface feature can strengthen understanding when building React components, I decided to deepen my understanding of TypeScript's React functionality to incorporate it into my application. This required additional learning, which I supported by completing an online 'Coding With Mosh' course.
 
@@ -204,7 +204,7 @@ After discovering how TypeScript's interface feature can strengthen understandin
 
 #### High Level Data Flow Diagram
 
-![High Level Data Flow Diagram](./images/HL_Flowchart.jpg)\
+![High Level Data Flow Diagram](./images/HL_Flowchart.jpg)
 
 High-Level Overview of the Survey App:
 
@@ -353,5 +353,11 @@ Completed Mood Board and continued learning TypeScript for React.
 Completed competitor research and started on Data Flow Diagrams.
 
 ![Trello Board 17th Nov](./images/17:11_trello.png)
+
+#### 18th Nov
+
+Completed high fidelity wireframes and user stories, created new low fidelity wireframes and user personas trello cards, decided to use D3.js for data visualisation and analytics, and continued with TypeScript for React online course.
+
+![Trello Board 17th Nov](./images/18:11_trello.png)
 
 ---
