@@ -12,6 +12,10 @@
 
 ---
 
+### Logo Ideas
+
+1. ![SurveyBuddy Logo idea 1](./images/SB_logo1.png)
+
 ### Application Description
 
 This survey app is designed to make creating and managing surveys effortless. Whether you’re a student collecting data for a project, an individual seeking personal insights, or a business gathering customer feedback, this app provides a simple and intuitive experience for all users.
