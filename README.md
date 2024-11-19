@@ -541,7 +541,7 @@ When creating the data flow diagrams, flow chart symbols were used inplace of da
 
 Adding User Persona's to each User Story including a profile picture, bio, goals, motivation, personality and skills sections.
 
-![Trello Board 17th Nov](./images/18:11_trello.png)
+![Trello Board 17th Nov](./images/19:11_trello.png)
 
 ---
 
