@@ -276,7 +276,7 @@ _"... also known as a context diagram. It’s designed to be an abstraction view
 
 #### GeeksForGeeks describe 2-level as:
 
-![Level 0 and 1 DFD](./images/DFDiagram.pdf)
+![Level 0 and 1 DFD](./images/DFDiagram.jpg)
 
 ## Flow Charts
 
