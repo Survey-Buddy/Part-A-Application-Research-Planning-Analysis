@@ -278,19 +278,7 @@ _"... also known as a context diagram. It’s designed to be an abstraction view
 
 ![Level 0 and 1 DFD](./images/DFDiagram.jpg)
 
-![Level 2 New Survey and Link DFD](./images/DFDLevel2NewSurvey.jpg)
-
-## Flow Charts
-
-**Flow Chart Legend**
-
-![Flow Chart Legend](./images/DataFlow_Legend.jpg)
-
-#### High Level Flow Chart Diagram
-
-![High Level Flow Chart](./images/HL_Flowchart.jpg)
-
-High-Level Overview of the Survey App:
+0-Level Overview of the Survey App:
 
 - _External entities:_
 
@@ -310,10 +298,6 @@ High-Level Overview of the Survey App:
 - _Data storage:_
 
   - All survey data (e.g., questions, responses) is securely stored in MongoDB Atlas.
-
-#### Level 1 Flow Chart Diagram
-
-![Level 1 Flow Chart](./images/Level1_FlowChart.jpg)
 
 Breakdown of Processes in the Survey Application:
 
@@ -339,6 +323,24 @@ Breakdown of Processes in the Survey Application:
   - Survey Creator requests survey analytics.
   - Backend processes stored responses and generates aggregated data.
   - Data is returned to the frontend and visualised using D3.js charts.
+
+![Level 2 New Survey and Link DFD](./images/DFDLevel2NewSurvey.jpg)
+
+## Flow Charts
+
+\*DFD's were initally made using the flow chart symbols.
+
+**Flow Chart Legend**
+
+![Flow Chart Legend](./images/DataFlow_Legend.jpg)
+
+#### High Level Flow Chart Diagram
+
+![High Level Flow Chart](./images/HL_Flowchart.jpg)
+
+#### Level 1 Flow Chart Diagram
+
+![Level 1 Flow Chart](./images/Level1_FlowChart.jpg)
 
 ### Level 2 Flow Chart Diagrams
 
@@ -368,36 +370,42 @@ To enlarge user story diagram's please click on image.
 
 Creating a new survey.
 
+![Sam's User Persona](./images/UP_Sam.png)
 ![Sam's User Story Diagram](./images/SamsUS.png)
 
 #### 2. Daisy's User Story
 
 Completing an existing survey.
 
+![Daisys User Persona](./images/UP_Daisy.png)
 ![Daisy's User Story Diagram](./images/DaisysUS.png)
 
 #### 3. Sarah's User Story
 
 Viewing the analytics page.
 
+![Sarah's User Persona](./images/UP_Sarah.png)
 ![Sarah's User Sotry Diagram](./images/SarahsUS.png)
 
 #### 4. Tim's User Story
 
 Finding a survey link and emailing it to a friend.
 
+![Tim's User Persona](./images/UP_Tim.png)
 ![Tim's User Story Diagram](./images/Tim'sUS.png)
 
 #### 5. Alice's User Story
 
 Navigating to the account page and logging out.
 
+![Alice's User Persona](./images/UP_Alice.png)
 ![Alice's User Story Diagram](./images/Alice'sUS.png)
 
 #### 6. John's User Story
 
 Signing up to create a new SurveyBuddy account.
 
+![John's User Persona](./images/UP_John.png)
 ![John's User Story Diagram](./images/John'sUS.png)
 
 ---
@@ -516,6 +524,16 @@ Completed competitor research and started on Data Flow Diagrams.
 #### 18th Nov
 
 Completed high fidelity wireframes and user stories, created new low fidelity wireframes and user personas trello cards, decided to use D3.js for data visualisation and analytics, and continued with TypeScript for React online course.
+
+![Trello Board 17th Nov](./images/18:11_trello.png)
+
+#### 19th Nov
+
+After speaking with my lecturer about wireframes, it was decided that basic high fidelity frames without styling would be sufficient, and that low fidelity wireframes would not be required. Therefore, this card was deleted from the project management Trello board.
+
+When creating the data flow diagrams, flow chart symbols were used inplace of data flow diagram convention symbols, the diagrams were recreated using symbols following the Yourdon + De Marco convention in Drawio.
+
+Adding User Persona's to each User Story including a profile picture, bio, goals, motivation, personality and skills sections.
 
 ![Trello Board 17th Nov](./images/18:11_trello.png)
 
