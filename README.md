@@ -408,6 +408,10 @@ Signing up to create a new SurveyBuddy account.
 ![John's User Persona](./images/UP_John.png)
 ![John's User Story Diagram](./images/John'sUS.png)
 
+### Evidence of Revision and Refinement
+
+![User Story Refinement](./images/US_refinement.jpg)
+
 ---
 
 ### High Fidelity Wireframes
