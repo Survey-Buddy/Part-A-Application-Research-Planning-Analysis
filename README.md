@@ -276,7 +276,7 @@ _"... also known as a context diagram. It’s designed to be an abstraction view
 
 #### GeeksForGeeks describe 2-level as:
 
-![Level 0 and 1 DFD](./images/DFDiagram.jpg)
+![Level 0 and 1 DFD](./images/DFDiagram.png)
 
 0-Level Overview of the Survey App:
 
@@ -411,6 +411,8 @@ Signing up to create a new SurveyBuddy account.
 ---
 
 ### High Fidelity Wireframes
+
+\*Without styling
 
 #### NavBar
 
