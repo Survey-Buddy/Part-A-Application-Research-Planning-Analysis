@@ -411,6 +411,7 @@ Signing up to create a new SurveyBuddy account.
 ### Evidence of Revision and Refinement
 
 ![User Story Refinement](./images/US_refinement.jpg)
+![Database in and out](./images/DB-inoutflow.jpg)
 
 ---
 
