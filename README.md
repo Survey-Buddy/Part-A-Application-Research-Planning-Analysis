@@ -228,7 +228,7 @@ After discovering how TypeScript's interface feature can strengthen understandin
 
 ---
 
-### Logo Ideas
+### Logo Idea Exploration
 
 1.
 
@@ -249,10 +249,6 @@ After discovering how TypeScript's interface feature can strengthen understandin
 
 ---
 
-### Style Guide
-
----
-
 ### Data Flow Diagram
 
 #### Data Flow Diagram Methods & Symbols
@@ -270,11 +266,15 @@ There are three levels of Data Dlow Diagrams (DFDs), these inlclude:
 
 #### GeeksForGeeks describe 0-level as:
 
-_"... also known as a context diagram. It’s designed to be an abstraction view, showing the system as a single process with its relationship to external entities."_ - geeksforgeeks.com
+_"... also known as a context diagram. It’s designed to be an abstraction view, showing the system as a single process with its relationship to external entities."_
 
 #### GeeksForGeeks describe 1-level as:
 
+_"This level provides a more detailed view of the system by breaking down the major processes identified in the level 0 DFD into sub-processes. Each sub-process is depicted as a separate process on the level 1 DFD."_
+
 #### GeeksForGeeks describe 2-level as:
+
+_"This level provides an even more detailed view of the system by breaking down the sub-processes identified in the level 1 DFD into further sub-processes."_
 
 ![Level 0 and 1 DFD](./images/DFDiagram.png)
 
@@ -324,7 +324,7 @@ Breakdown of Processes in the Survey Application:
   - Backend processes stored responses and generates aggregated data.
   - Data is returned to the frontend and visualised using D3.js charts.
 
-![Level 2 New Survey and Link DFD](./images/DFDLevel2NewSurvey.jpg)
+![Level 2 New Survey and Link DFD](./images/DFDLevel2.drawio.png)
 
 ## Flow Charts
 
