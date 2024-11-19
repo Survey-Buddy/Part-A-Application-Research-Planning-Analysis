@@ -260,8 +260,23 @@ After discovering how TypeScript's interface feature can strengthen understandin
 \*For this application, the Yourdon + De Marco convention will be used.
 
 ![Data Flow Diagram Methods and Symbols](images/Data-Flow-Diagram-Methods-&-Symbols.webp)
+_geeksforgeeks.org_
 
----
+There are three levels of Data Dlow Diagrams (DFDs), these inlclude:
+
+- Level-0
+- Level-1
+- Level-2
+
+#### GeeksForGeeks describe 0-level as:
+
+_"... also known as a context diagram. It’s designed to be an abstraction view, showing the system as a single process with its relationship to external entities."_ - geeksforgeeks.com
+
+#### GeeksForGeeks describe 1-level as:
+
+#### GeeksForGeeks describe 2-level as:
+
+![Level 0 and 1 DFD](./images/DFDiagram.jpg)
 
 ## Flow Charts
 
@@ -501,5 +516,9 @@ Completed competitor research and started on Data Flow Diagrams.
 Completed high fidelity wireframes and user stories, created new low fidelity wireframes and user personas trello cards, decided to use D3.js for data visualisation and analytics, and continued with TypeScript for React online course.
 
 ![Trello Board 17th Nov](./images/18:11_trello.png)
+
+---
+
+Reference List
 
 ---
