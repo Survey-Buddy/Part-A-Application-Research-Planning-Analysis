@@ -278,6 +278,8 @@ _"... also known as a context diagram. It’s designed to be an abstraction view
 
 ![Level 0 and 1 DFD](./images/DFDiagram.jpg)
 
+![Level 2 New Survey and Link DFD](./images/DFDLevel2NewSurvey.jpg)
+
 ## Flow Charts
 
 **Flow Chart Legend**
