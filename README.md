@@ -364,6 +364,10 @@ Breakdown of Processes in the Survey Application:
 
 ![Application Architecture Diagram](./images/architecture.drawio.png)
 
+\*It is important to note that both JWT generation and database connections rely on secret keys, which are essential for secure token creation and authentication. Without these keys, the app cannot function properly.
+
+The deployed application frontend will be hosted on [Netlify](https://www.netlify.com/), the backend on [Render](https://render.com/), and the database on [MongoDB Atlas](https://www.mongodb.com/docs/atlas/).
+
 ---
 
 ### User Stories
