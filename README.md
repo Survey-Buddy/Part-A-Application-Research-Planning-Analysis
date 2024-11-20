@@ -332,7 +332,7 @@ Breakdown of Processes in the Survey Application:
 
 #### High Level Data Flow Chart Diagram
 
-![High Level Data Flow Diagram]()
+![High Level Data Flow Diagram](./images/Dataflow_highlevel.jpg)
 
 #### Level 1 Flow Chart Diagram
 
