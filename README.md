@@ -508,13 +508,13 @@ The UI for the survey app is designed to be simple and logical, ensuring an intu
 
 ### Project Management
 
-# **Project Management Process Evidence**
+### **Project Management Process Evidence**
 
 To manage the development of my survey app, I used a **Trello board** structured with the following columns: **To Do**, **Doing**, **Done**, and **Signed Off**. This workflow aligns with key principles of the **Agile methodology**, ensuring iterative progress and continuous improvement even as a solo developer. Below is a detailed explanation of how my process meets Agile requirements:
 
 ---
 
-## **1. Sprint Planning**
+#### **1. Sprint Planning**
 
 - Tasks are broken down into manageable and actionable cards within the **To Do** column.
 - Each card represents a clear deliverable or functionality, such as implementing survey creation, authentication, or data visualisation analytics.
@@ -522,21 +522,21 @@ To manage the development of my survey app, I used a **Trello board** structured
 
 ---
 
-## **2. Focused Execution**
+#### **2. Focused Execution**
 
 - I select tasks from the **To Do** column and move them to **Doing**, focusing on one task, or related tasks, at a time to maintain efficiency.
 - Each sprint focuses on completing a single card or a set of related cards within a short time frame.
 
 ---
 
-## **3. Iterative Development**
+#### **3. Iterative Development**
 
 - Completed tasks are moved to the **Done** column, where they remain for a period of self-imposed review.
 - This delay allows me to revisit the task after a couple of days with fresh eyes, ensuring quality and identifying potential improvements.
 
 ---
 
-## **4. Continuous Improvement**
+#### **4. Continuous Improvement**
 
 - After review, tasks are either:
   - Improved and refined based on identified gaps or optimisations.
@@ -545,14 +545,14 @@ To manage the development of my survey app, I used a **Trello board** structured
 
 ---
 
-## **5. Transparency and Adaptability**
+#### **5. Transparency and Adaptability**
 
 - The Trello board provides a clear and transparent overview of the project’s progress, from planned tasks to completed features.
 - If priorities or requirements change, I adapt the task order in the **To Do** column to reflect the new focus areas.
 
 ---
 
-## **Why This Process Meets Agile Requirements**
+### **Why This Process Meets Agile Requirements**
 
 - **Iterative Development**: Tasks are completed in small, manageable increments (sprints), allowing for continuous progress.
 - **Focus on Quality**: The review process ensures tasks are revisited and refined, aligning with Agile’s emphasis on delivering high-quality, functional software.
