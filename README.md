@@ -330,9 +330,9 @@ Breakdown of Processes in the Survey Application:
 
 ## Further Data Flow Diagrams
 
-#### High Level Flow Chart Diagram
+#### High Level Data Flow Chart Diagram
 
-![High Level Data Flow Diagram](./images/Dataflow_highlevel.jpg)
+![High Level Data Flow Diagram]()
 
 #### Level 1 Flow Chart Diagram
 
@@ -343,10 +343,6 @@ Breakdown of Processes in the Survey Application:
 #### Respondent Survey Retrieval
 
 ![Survey Respondent Flow Chart](./images/Flowchart_Respondent.jpg)
-
-#### Respondent Survey Completion
-
-![Survey Completion Flow Chart](./images/Flowchart_SurveyCompletion.jpg)
 
 #### New Survey Creation
 
