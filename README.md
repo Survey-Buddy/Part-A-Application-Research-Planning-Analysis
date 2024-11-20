@@ -328,17 +328,11 @@ Breakdown of Processes in the Survey Application:
 
 ![Level 2 New Survey and Link DFD](./images/DFDLevel2.drawio.png)
 
-## Flow Charts
-
-\*DFD's were initally made using the flow chart symbols.
-
-**Flow Chart Legend**
-
-![Flow Chart Legend](./images/DataFlow_Legend.jpg)
+## Further Data Flow Diagrams
 
 #### High Level Flow Chart Diagram
 
-![High Level Flow Chart](./images/HL_Flowchart.jpg)
+![High Level Data Flow Diagram](./images/Dataflow_highlevel.jpg)
 
 #### Level 1 Flow Chart Diagram
 
