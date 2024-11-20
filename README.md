@@ -276,6 +276,8 @@ _"This level provides a more detailed view of the system by breaking down the ma
 
 _"This level provides an even more detailed view of the system by breaking down the sub-processes identified in the level 1 DFD into further sub-processes."_
 
+\*It is important to note that JSON Web Tokens (JWTs) are generated in the Express backend, not fetched from the database. The database validates the user's credentials, after which the backend generates and issues the active token. While the data flow diagrams below depict the JWT in the path from the data store to the process, it is actually created within the backend itself.
+
 ![Level 0 and 1 DFD](./images/DFDiagram.png)
 
 0-Level Overview of the Survey App:
@@ -359,6 +361,8 @@ Breakdown of Processes in the Survey Application:
 ---
 
 ### Application Architecture Diagram
+
+![Application Architecture Diagram](./images/architecture.drawio.png)
 
 ---
 
