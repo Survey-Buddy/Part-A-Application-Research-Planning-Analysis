@@ -420,6 +420,12 @@ This list breaks down the key technologies used in each architectural component 
 
 The final application frontend will be hosted on [Netlify](https://www.netlify.com/), the backend on [Render](https://render.com/), and the database on [MongoDB Atlas](https://www.mongodb.com/docs/atlas/).
 
+#### MERN Stack High View
+
+![MERN Stack Architecture High View](./images/mern_architecture.jpeg)
+
+The frontend and backend communicate using HTTP request and response calls, exchanging data in JSON (JavaScript Object Notation) format. Express, a server framework built on Node.js, powers the backend, managing these communications efficiently and securely.
+
 ---
 
 ### User Stories
