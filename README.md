@@ -370,13 +370,11 @@ This server-side architecture ensures that your survey application operates effi
 
 \*It is important to note that both JWT generation and database connections rely on secret keys, which are essential for secure token creation and authentication. Without these keys, the app cannot function properly.
 
-# **Tech Stack for Survey App**
+### **Tech Stack for Survey App**
 
 This list breaks down the key technologies used in each architectural component of the survey app.
 
----
-
-## **Frontend**
+#### **Frontend**
 
 - **React**: Framework for building the user interface.
 - **useContext API**: For managing global state within the app.
@@ -386,9 +384,7 @@ This list breaks down the key technologies used in each architectural component 
 - **Styling Library** (Bootstrap): For designing the user interface.
 - **HTTP Requests** (Fetch): For communicating with the backend.
 
----
-
-## **Backend (Express)**d
+#### **Backend (Express)**
 
 - **Express.js**: Framework for building the server and API.
 - **JWT**: For secure token-based authentication.
@@ -400,17 +396,13 @@ This list breaks down the key technologies used in each architectural component 
   - **body-parser**: For parsing incoming request data (built-in for recent Express versions).
 - **Node.js**: Runtime environment for executing JavaScript server-side.
 
----
-
-## **Database (MongoDB Atlas)**
+#### **Database (MongoDB Atlas)**
 
 - **MongoDB**: Cloud-based database for storing app data.
 - **Mongoose**: Object Data Modeling (ODM) library for database communication.
 - **Data Validation**: Ensures data integrity using Mongoose schemas.
 
----
-
-## **General Tools**
+#### **General Tools**
 
 - **Git**: For version control and source code management.
 - **npm**: For package management and dependency handling.
