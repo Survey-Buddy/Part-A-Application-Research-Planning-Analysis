@@ -12,6 +12,24 @@
 
 ---
 
+## Table of Contents
+
+- [Description](#application-description)
+- [Purpose](#application-purpose)
+- [Target Audience](#target-audience)
+- [Tech Stack](#technology-stack)
+- [Features & Functionality](#functionality--features)
+- [Logo Idea Exploration](#logo-idea-exploration)
+- [Data Flow Diagrams](#data-flow-diagram)
+- [Application Architecture Diagram](#application-architecture-diagram)
+- [User Stories](#user-stories)
+- [Wireframes](#high-fidelity-wireframes)
+- [Project Management](#project-management)
+- [Trello Board Tracking](#trello-board-tracking)
+- [Reference List](#reference-list)
+
+---
+
 ### Application Description
 
 This survey app is designed to make creating and managing surveys effortless. Whether you’re a student collecting data for a project, an individual seeking personal insights, or a business gathering customer feedback, this app provides a simple and intuitive experience for all users.
@@ -373,7 +391,7 @@ This server-side architecture ensures that your survey application operates effi
 
 \*It is important to note that both JWT generation and database connections rely on secret keys, which are essential for secure token creation and authentication. Without these keys, the app cannot function properly.
 
-### **Tech Stack Architecture**
+#### **Tech Stack Architecture**
 
 This list breaks down the key technologies used in each architectural component of the app.
 
@@ -420,11 +438,13 @@ This list breaks down the key technologies used in each architectural component 
 
 The final application frontend will be hosted on [Netlify](https://www.netlify.com/), the backend on [Render](https://render.com/), and the database on [MongoDB Atlas](https://www.mongodb.com/docs/atlas/).
 
-#### MERN Stack High View
+#### MERN Stack Architecture
 
 ![MERN Stack Architecture High View](./images/mern_architecture.jpeg)
 
-The frontend and backend communicate using HTTP request and response calls, exchanging data in JSON (JavaScript Object Notation) format. Express, a server framework built on Node.js, powers the backend, managing these communications efficiently and securely.
+The frontend and backend communicate using **HTTP request** and response calls, exchanging data in **JSON** (JavaScript Object Notation) format. **Express**, a server framework built on **Node.js**, powers the backend, managing these communications efficiently and securely.
+
+The frontend will utilise reusable **React components** wherever possible to align with **DRY** (Don't Repeat Yourself) coding principles. The backend will be structured into **routes**, **controllers**, and **models**, each focusing on a specific task or concern to maintain clear **separation of responsibilities**.
 
 ---
 
@@ -613,7 +633,7 @@ To manage the development of my survey app, I used a **Trello board** structured
 
 This process ensures that my development workflow remains organised, iterative, and adaptable while following Agile principles in a manner appropriate for solo work.
 
-### Trello Board Progress Tracking
+### Trello Board Tracking
 
 _It is important to note that the **Extra Tech Learning** and **Planning Methodology** cards represent ongoing tasks and are not considered part of sprints. These cards remain in the **Doing** column throughout most of Part A development and planning._
 
@@ -679,6 +699,6 @@ An **Part A Review** card was added to the Trello Board, to be completed by mid 
 
 ---
 
-Reference List
+### Reference List
 
 ---
