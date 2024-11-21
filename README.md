@@ -98,31 +98,39 @@ Here is a visual guide of the MERN stack, that displays the overall structure fo
 
 ![MERN Architecture](./images/MernArchitecture.png)
 
+#### Other main technologies include:
 
+- **TypeScript**
 
   <img src="./images/Typescript.png" alt="TypeScript logo" width="100" >
 
   _"TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."_ - typescript.com
 
+- **Boostrap**
 
   <img src="./images/Bootstrap.webp" alt="Bootstrap logo" width="100" >
 
   _"Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins."_ - bootstrap.com
 
+- **Chakra UI**
 
   <img src="./images/chakra.png" alt="Chakra logo" width="200" >
 
 _"Accessible React components for building high-quality web apps and design systems."_ - chakra-ui.com
 
+- **Mongoose**
 
   <img src="./images/mongoose.png" alt="Mongoose logo" width="200" >
 
 _"Mongoose is an ODM (Object Data Modeling) library for MongoDB."_ - mongodb.com
 
+- **Amazon S3**
 
   <img src="./images/AmazonS3.png" alt="Amazon S3 logo" width="200" >
 
 _"Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance."_ - aws.amazon.com/s3
+
+#### For a complete list of technologies, please refer to the application architecture.
 
 ---
 
@@ -247,6 +255,7 @@ After discovering how TypeScript's interface feature can strengthen understandin
 
 #### Data Flow Diagram Methods & Symbols
 
+\*For the following diagrams, the **Yourdon + De Marco** diagram convention will be strictly followed, clearly depicting where data is coming from, where it is going, and how it is being stored.
 
 ![Data Flow Diagram Methods and Symbols](images/Data-Flow-Diagram-Methods-&-Symbols.webp)
 _geeksforgeeks.org_
@@ -365,6 +374,7 @@ This server-side architecture ensures that your survey application operates effi
 
 ### **Tech Stack for Survey App**
 
+This list breaks down the key technologies used in each architectural component of the app.
 
 #### **Frontend**
 
@@ -405,6 +415,9 @@ This server-side architecture ensures that your survey application operates effi
 
 ![Tech Architecture Diagram](./images/TechArchitectureDiagram.drawio.png)
 
+#### **Deployment**
+
+The final application frontend will be hosted on [Netlify](https://www.netlify.com/), the backend on [Render](https://render.com/), and the database on [MongoDB Atlas](https://www.mongodb.com/docs/atlas/).
 
 ---
 
