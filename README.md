@@ -32,12 +32,11 @@ The purpose of this app is to provide a straightforward and affordable alternati
 
 ##### Students:
 
-- Ideal for conducting surveys for academic research, gathering peer feedback, or collecting data for projects, assignments, and theses.
-- Useful for group work, where students can collaborate on surveys and analyze responses together.
+- Ideal for conducting surveys for academic research, gathering peer feedback, or collecting data for projects, and assignments.
+- Useful for group work, where students can collaborate on surveys and analyse responses together.
 
 ##### Individuals:
 
-- Perfect for personal insights, self-reflection, and hobby-related topics like fitness tracking, lifestyle choices, or creative writing polls.
 - Enables individuals to run informal surveys for friends, social media followers, or community groups.
 
 ##### Businesses:
@@ -50,12 +49,14 @@ The purpose of this app is to provide a straightforward and affordable alternati
 ##### Educators and Trainers:
 
 - Useful for creating quizzes, feedback forms, and evaluations for classes or workshops.
-- Allows for tracking and analyzing student or trainee progress over time.
-  Nonprofits and Community Groups:
+- Allows for tracking and analysing student or trainee progress over time.
+
+##### Nonprofits and Community Groups:
 
 - Ideal for collecting input from members, running community feedback polls, or gathering opinions on local issues.
-- Enables organizations to track the impact of their initiatives and programs.
-  Healthcare Professionals:
+- Enables organisations to track the impact of their initiatives and programs.
+
+##### Healthcare Professionals:
 
 - Use for patient satisfaction surveys, pre-appointment checklists, or anonymous feedback on care quality.
 
@@ -130,7 +131,7 @@ _"Mongoose is an ODM (Object Data Modeling) library for MongoDB."_ - mongodb.com
 
 _"Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance."_ - aws.amazon.com/s3
 
-#### For a complete list of technologies, please refer to the application architecture.
+For a complete list of technologies, please refer to **application architecture**.
 
 ---
 
@@ -372,7 +373,7 @@ This server-side architecture ensures that your survey application operates effi
 
 \*It is important to note that both JWT generation and database connections rely on secret keys, which are essential for secure token creation and authentication. Without these keys, the app cannot function properly.
 
-### **Tech Stack for Survey App**
+### **Tech Stack Architecture**
 
 This list breaks down the key technologies used in each architectural component of the app.
 
@@ -659,6 +660,16 @@ Adding User Persona's to each User Story including a profile picture, bio, goals
 Completed Data Flow Diagrams and Application Architecture cards, reviewed cards in **Done** column, and moved to signed off where appropriate.
 
 ![Trello Board 20th Nov](./images/20:11_trello.png)
+
+#### 21st Nov
+
+Completed the application architecture diagram card and added a tech architecture diagram to it. Reviewed and made minor changes to wire frames, DFD, user personas and user stories cards and moved to **Signed Off**.
+
+**Part A** of the assignment is almost complete, I now plan to focus my attention on learning TypeScript for React and **Part B** of the assignment.
+
+An **Part A Review** card was added to the Trello Board, to be completed by mid next week.
+
+![Trello Board 21th Nov](./images/21:11_trello.png)
 
 ---
 
