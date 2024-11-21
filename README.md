@@ -2,13 +2,13 @@
 
 ## Part A
 
-#### Front-End Repositiory [here](https://github.com/Survey-Buddy/surveybuddy-client).
+#### View Front-End Repositiory -> [Here](https://github.com/Survey-Buddy/surveybuddy-client).
 
-#### Back-end Repository here.
+#### View Back-End Repository -> [Here](https://github.com/Survey-Buddy/surveybuddy-backend).
 
-#### Presentation here.
+#### Project Presentation -> Here.
 
-#### Project Management Trello Board [here](https://trello.com/b/5D0KTU38/survey-buddy-part-a).
+#### Project Management Trello Board -> [Here](https://trello.com/b/5D0KTU38/survey-buddy-part-a).
 
 ---
 
@@ -49,42 +49,42 @@ The purpose of this app is to provide a straightforward and affordable alternati
 
 ### Target Audience
 
-##### Students:
+##### **Students:**
 
 - Ideal for conducting surveys for academic research, gathering peer feedback, or collecting data for projects, and assignments.
 - Useful for group work, where students can collaborate on surveys and analyse responses together.
 
-##### Individuals:
+##### **Individuals:**
 
 - Enables individuals to run informal surveys for friends, social media followers, or community groups.
 
-##### Businesses:
+##### **Businesses:**
 
 - Customer Feedback: Collect insights on customer satisfaction, product preferences, and overall experience.
 - Employee Engagement: Run surveys to measure job satisfaction, gather suggestions, and understand team morale.
 - Market Research: Conduct surveys to gather insights on market trends, product demand, and consumer behavior.
 - Event Planning: Create RSVP forms or post-event feedback surveys to improve future events.
 
-##### Educators and Trainers:
+##### **Educators and Trainers:**
 
 - Useful for creating quizzes, feedback forms, and evaluations for classes or workshops.
 - Allows for tracking and analysing student or trainee progress over time.
 
-##### Nonprofits and Community Groups:
+##### **Nonprofits and Community Groups:**
 
 - Ideal for collecting input from members, running community feedback polls, or gathering opinions on local issues.
 - Enables organisations to track the impact of their initiatives and programs.
 
-##### Healthcare Professionals:
+##### **Healthcare Professionals:**
 
 - Use for patient satisfaction surveys, pre-appointment checklists, or anonymous feedback on care quality.
 
-##### Freelancers and Creators:
+##### **Freelancers and Creators:**
 
 - Collect feedback on services, products, or creative content like art, music, or writing.
 - Use as a tool to engage audiences and build community trust through polls or feedback forms.
 
-##### Small and Large Teams:
+##### **Small and Large Teams:**
 
 - Track project progress and gather feedback from team members in real-time.
 - Use surveys for retrospectives, brainstorming sessions, or decision-making.
