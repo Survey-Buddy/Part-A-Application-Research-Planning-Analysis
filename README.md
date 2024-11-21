@@ -12,25 +12,26 @@
 
 ---
 
-## Table of Contents
+### Application Table of Contents
 
 - [Description](#application-description)
 - [Purpose](#application-purpose)
 - [Target Audience](#target-audience)
-- [Tech Stack](#technology-stack)
+- [Technology Stack](#technology-stack)
 - [Features & Functionality](#functionality--features)
+- [Crucial Decisions](#crucial-decisions)
 - [Logo Idea Exploration](#logo-idea-exploration)
-- [Data Flow Diagrams](#data-flow-diagram)
-- [Application Architecture Diagram](#application-architecture-diagram)
+- [Data Flow Diagrams](#data-flow-diagrams)
+- [Application Architecture Diagrams](#application-architecture-diagrams)
 - [User Stories](#user-stories)
-- [Wireframes](#high-fidelity-wireframes)
+- [Wireframes](#wireframes)
 - [Project Management](#project-management)
 - [Trello Board Tracking](#trello-board-tracking)
 - [Reference List](#reference-list)
 
 ---
 
-### Application Description
+### Description
 
 This survey app is designed to make creating and managing surveys effortless. Whether you’re a student collecting data for a project, an individual seeking personal insights, or a business gathering customer feedback, this app provides a simple and intuitive experience for all users.
 
@@ -40,7 +41,7 @@ Built with a focus on simplicity and functionality, this app streamlines the pro
 
 ---
 
-### Application Purpose
+### Purpose
 
 The purpose of this app is to provide a straightforward and affordable alternative to complicated and feature-heavy survey platforms. Many existing options overwhelm users with unnecessary features and costs. This app focuses on simplicity, ensuring users can quickly create, share, and analyse surveys without distractions or hidden expenses. It's perfect for those who value ease of use and clarity over complexity.
 
@@ -153,13 +154,13 @@ For a complete list of technologies, please refer to **application architecture*
 
 ---
 
-### Functionality / Features
+### Functionality & Features
 
 A Mind Map was created to explore and document potential application functionality and features.
 
 ![Mind Map](./images/MindMap.jpg)
 
-### Minimum Viable Product Features
+#### Minimum Viable Product Features
 
 **User Authorisation:** Ensures that only survey creators can access and manage their own surveys and data, stopping unauthorised access.
 
@@ -173,7 +174,7 @@ A Mind Map was created to explore and document potential application functionali
 
 **Data Display:** Displays survey results in a user-friendly layout, showing individual responses and aggregated data where applicable.
 
-### Stretch Goal Features
+#### Stretch Goal Features
 
 **Written Summaries:** Generate detailed written summaries of survey results for easy interpretation.
 
@@ -211,7 +212,7 @@ To analyse competitor applications and gain a deeper understanding of their feat
 
 ### Crucial Decisions
 
-### Survey Submission options
+#### Survey Submission options
 
 1. Make API call to store question data after each answered question:
 
@@ -243,7 +244,7 @@ To analyse competitor applications and gain a deeper understanding of their feat
   - If a user were to abandon the survey without submission, or their survey expires, their responses will be lost.
 - No Real-Time Updates
 
-### TypeScript
+#### TypeScript
 
 After discovering how TypeScript's interface feature can strengthen understanding when building React components, I decided to deepen my understanding of TypeScript's React functionality to incorporate it into my application. This required additional learning, which I supported by completing an online 'Coding With Mosh' course.
 
@@ -270,7 +271,7 @@ After discovering how TypeScript's interface feature can strengthen understandin
 
 ---
 
-### Data Flow Diagram
+### Data Flow Diagrams
 
 #### Data Flow Diagram Methods & Symbols
 
@@ -349,7 +350,7 @@ Breakdown of Processes in the Survey Application:
 
 ![Level 2 New Survey and Link DFD](./images/DFDLevel2.drawio.png)
 
-## Further Data Flow Diagrams
+### Further Data Flow Diagrams
 
 #### High Level Data Flow Chart Diagram
 
@@ -371,7 +372,7 @@ Breakdown of Processes in the Survey Application:
 
 ---
 
-### Application Architecture Diagram
+### Application Architecture Diagrams
 
 Server-side architecture refers to the framework that manages the operations and interactions of a web application's backend components. In this model, the server handles the core logic, processes client requests, interacts with databases, and delivers the appropriate responses to the client-side interface. This approach ensures efficient data processing, security, and scalability.
 
@@ -501,9 +502,9 @@ Signing up to create a new SurveyBuddy account.
 
 ---
 
-### High Fidelity Wireframes
+### Wireframes
 
-\*Without styling
+\*High Fidelity without styling.
 
 #### NavBar
 
