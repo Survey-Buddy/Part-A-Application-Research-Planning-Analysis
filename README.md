@@ -352,9 +352,74 @@ Breakdown of Processes in the Survey Application:
 
 ### Application Architecture Diagram
 
+Server-side architecture refers to the framework that manages the operations and interactions of a web application's backend components. In this model, the server handles the core logic, processes client requests, interacts with databases, and delivers the appropriate responses to the client-side interface. This approach ensures efficient data processing, security, and scalability.
+
+In the context of the **SurveyBuddy** application, the server-side architecture is implemented as follows:
+
+**Backend Framework:** Utilises Express.js to manage server-side logic and handle HTTP requests and responses.
+
+**Database Interaction:** Employs MongoDB Atlas for data storage, with Mongoose serving as the Object Data Modeling (ODM) library to facilitate database operations.
+
+**Authentication:** Implements JSON Web Tokens (JWT) for secure user authentication, ensuring that only authorised users can access specific functionalities.
+
+**API Endpoints:** Defines RESTful API endpoints to enable communication between the frontend and backend, supporting operations such as survey creation, data retrieval, and analytics.
+
+This server-side architecture ensures that your survey application operates efficiently, securely, and is capable of scaling to meet user demands.
+
 ![Application Architecture Diagram](./images/architecture.drawio.png)
 
 \*It is important to note that both JWT generation and database connections rely on secret keys, which are essential for secure token creation and authentication. Without these keys, the app cannot function properly.
+
+# **Tech Stack for Survey App**
+
+This list breaks down the key technologies used in each architectural component of the survey app.
+
+---
+
+## **Frontend**
+
+- **React**: Framework for building the user interface.
+- **useContext API**: For managing global state within the app.
+- **React Router DOM**: For routing and navigation between pages.
+- **React Forms**: For handling survey inputs and user data.
+- **D3.js**: For creating interactive charts and visualising survey analytics.
+- **Styling Library** (Bootstrap): For designing the user interface.
+- **HTTP Requests** (Fetch): For communicating with the backend.
+
+---
+
+## **Backend (Express)**d
+
+- **Express.js**: Framework for building the server and API.
+- **JWT**: For secure token-based authentication.
+- **bcrypt**: For hashing and securely storing passwords.
+- **dotenv**: For managing environment variables securely.
+- **Mongoose**: For interacting with the MongoDB database.
+- **Middleware**:
+  - **cors**: For handling cross-origin requests.
+  - **body-parser**: For parsing incoming request data (built-in for recent Express versions).
+- **Node.js**: Runtime environment for executing JavaScript server-side.
+
+---
+
+## **Database (MongoDB Atlas)**
+
+- **MongoDB**: Cloud-based database for storing app data.
+- **Mongoose**: Object Data Modeling (ODM) library for database communication.
+- **Data Validation**: Ensures data integrity using Mongoose schemas.
+
+---
+
+## **General Tools**
+
+- **Git**: For version control and source code management.
+- **npm**: For package management and dependency handling.
+- **Deployment Platforms**: Netlify, and Render for hosting the app.
+- **Testing Tools**:
+  - **Frontend**: Jest, React Testing Library.
+  - **Backend**: Mocha, Chai, Supertest.
+
+![Tech Architecture Diagram](./images/TechArchitectureDiagram.drawio.png)
 
 The deployed application frontend will be hosted on [Netlify](https://www.netlify.com/), the backend on [Render](https://render.com/), and the database on [MongoDB Atlas](https://www.mongodb.com/docs/atlas/).
 
