@@ -1,8 +1,8 @@
-# Survey Buddy
+# SurveyBuddy Application
 
 ## Part A
 
-#### View Front-End Repositiory -> [Here](https://github.com/Survey-Buddy/surveybuddy-client).
+#### View Front-End Repository -> [Here](https://github.com/Survey-Buddy/surveybuddy-client).
 
 #### View Back-End Repository -> [Here](https://github.com/Survey-Buddy/surveybuddy-backend).
 
@@ -638,9 +638,7 @@ This process ensures that my development workflow remains organised, iterative, 
 
 _It is important to note that the **Extra Tech Learning** and **Planning Methodology** cards represent ongoing tasks and are not considered part of sprints. These cards remain in the **Doing** column throughout most of Part A development and planning._
 
-#### 13th Nov
-
-**The journey begins!**
+#### 13th Nov - **The Journey Begins!**
 
 Populated the Trello board with initial Part A tasks. Researched app ideas and extra technology.
 
