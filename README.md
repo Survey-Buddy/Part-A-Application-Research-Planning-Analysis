@@ -435,10 +435,6 @@ This list breaks down the key technologies used in each architectural component 
 
 ![Tech Architecture Diagram](./images/TechArchitectureDiagram.drawio.png)
 
-#### **Deployment**
-
-The final application frontend will be hosted on [Netlify](https://www.netlify.com/), the backend on [Render](https://render.com/), and the database on [MongoDB Atlas](https://www.mongodb.com/docs/atlas/).
-
 #### MERN Stack Architecture
 
 ![MERN Stack Architecture High View](./images/mern_architecture.jpeg)
@@ -446,6 +442,43 @@ The final application frontend will be hosted on [Netlify](https://www.netlify.c
 The frontend and backend communicate using **HTTP request** and response calls, exchanging data in **JSON** (JavaScript Object Notation) format. **Express**, a server framework built on **Node.js**, powers the backend, managing these communications efficiently and securely.
 
 The frontend will utilise reusable **React components** wherever possible to align with **DRY** (Don't Repeat Yourself) coding principles. The backend will be structured into **routes**, **controllers**, and **models**, each focusing on a specific task or concern to maintain clear **separation of responsibilities**.
+
+#### File System Architecture
+
+```surveybuddy/
+├── client/                # Frontend code
+│ ├── public/              # Static files like index.html, favicon
+│ ├── src/                 # Source files
+│ │ ├── components/        # Reusable React components
+│ │ ├── pages/             # Full-page components
+│ │ ├── context/           # React Context for state management
+│ │ ├── services/          # API calls and utilities
+│ │ ├── styles/            # CSS/SCSS files
+│ │ ├── App.tsx            # Root React component
+│ │ └── index.tsx          # React entry point
+│ └── package.json         # Frontend dependencies
+│
+├── server/                # Backend code
+│ ├── controllers/         # Route controllers (business logic)
+│ ├── models/              # Database schemas/models
+│ ├── routes/              # API endpoints
+│ ├── utils/               # Helper functions/middleware
+│ ├── app.js               # Express app setup
+│ ├── server.js            # Main server entry point
+│ └── package.json         # Backend dependencies
+│
+├── .env                   # Environment variables
+├── README.md              # Project documentation
+├── package.json           # Top-level dependencies and scripts
+├── tsconfig.json          # TypeScript configuration
+└── .gitignore             # Ignored files for Git
+```
+
+A robust file system allows the application to scale without becoming difficult to understand. It follows the seperation of concerns methodology, keeping related functionalities together and seperate from unrelated files and directories. It also makes it easier to follow for new developers or team members to work on the project who are unfamiliar with the source code.
+
+#### **Deployment**
+
+The final application frontend will be hosted on [Netlify](https://www.netlify.com/), the backend on [Render](https://render.com/), and the database on [MongoDB Atlas](https://www.mongodb.com/docs/atlas/).
 
 ---
 
