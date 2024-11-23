@@ -447,17 +447,18 @@ The frontend will utilise reusable **React components** wherever possible to ali
 
 ```surveybuddy/
 ├── client/                # Frontend code
-│ ├── public/              # Static files like index.html, favicon
-│ ├── src/                 # Source files
-│ │ ├── components/        # Reusable React components
-│ │ ├── pages/             # Full-page components
-│ │ ├── context/           # React Context for state management
-│ │ ├── services/          # API calls and utilities
-│ │ ├── styles/            # CSS/SCSS files
-│ │ ├── App.tsx            # Root React component
-│ │ └── index.tsx          # React entry point
-│ └── package.json         # Frontend dependencies
-│
+  ├── public/              # Static files like index.html
+  ├── src/                 # Source files
+  │ ├── components/        # Reusable React components
+  │ ├── pages/             # Full-page components
+  │ ├── context/           # React Context for state management
+  │ ├── services/          # API calls and utilities
+  │ ├── styles/            # CSS/SCSS files
+  │ ├── App.tsx            # Root React component
+  │ └── index.tsx          # React entry point
+  └── package.json         # Frontend dependencies
+
+
 ├── server/                # Backend code
 │ ├── controllers/         # Route controllers (business logic)
 │ ├── models/              # Database schemas/models
@@ -474,11 +475,11 @@ The frontend will utilise reusable **React components** wherever possible to ali
 └── .gitignore             # Ignored files for Git
 ```
 
-A robust file system allows the application to scale without becoming difficult to understand. It follows the seperation of concerns methodology, keeping related functionalities together and seperate from unrelated files and directories. It also makes it easier to follow for new developers or team members to work on the project who are unfamiliar with the source code.
+A robust file system ensures that the application can scale effectively without becoming overly complex. It adheres to the **separation of concerns** principle, grouping related functionalities together while keeping unrelated files and directories separate. This structure enhances maintainability and makes it easier for new developers or team members to navigate and contribute to the project, even if they are unfamiliar with the source code.
 
-#### **Deployment**
+#### Deployment
 
-The final application frontend will be hosted on [Netlify](https://www.netlify.com/), the backend on [Render](https://render.com/), and the database on [MongoDB Atlas](https://www.mongodb.com/docs/atlas/).
+The final application will have its frontend hosted on [Netlify](https://www.netlify.com/), the backend on [Render](https://render.com/), and the database on [MongoDB Atlas](https://www.mongodb.com/docs/atlas/).
 
 ---
 
