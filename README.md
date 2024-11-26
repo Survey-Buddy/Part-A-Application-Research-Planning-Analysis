@@ -23,7 +23,7 @@
 - [Logo Idea Exploration](#logo-idea-exploration)
 - [Data Flow Diagrams](#data-flow-diagrams)
 - [Application Architecture Diagrams](#application-architecture-diagrams)
-- [User Stories](#user-stories)
+- [User Stories & Personas](#user-stories)
 - [Wireframes](#wireframes)
 - [Project Management](#project-management)
 - [Trello Board Tracking](#trello-board-tracking)
@@ -404,7 +404,8 @@ This list breaks down the key technologies used in each architectural component 
 - **React Forms**: For handling survey inputs and user data.
 - **D3.js**: For creating interactive charts and visualising survey analytics.
 - **Styling Library** (Bootstrap): For designing the user interface.
-- **HTTP Requests** (Fetch): For communicating with the backend.
+- **HTTP Requests** (Fetch or Axios): For communicating with the backend.
+- **Validation** (Zod): For client side validation.
 
 #### **Backend (Express)**
 
@@ -476,6 +477,19 @@ The frontend will utilise reusable **React components** wherever possible to ali
 ```
 
 A robust file system ensures that the application can scale effectively without becoming overly complex. It adheres to the **separation of concerns** principle, grouping related functionalities together while keeping unrelated files and directories separate. This structure enhances maintainability and makes it easier for new developers or team members to navigate and contribute to the project, even if they are unfamiliar with the source code.
+
+### Model View Controller Express Architecture
+
+![MVC Diagram](./images/mvc_express.png)
+
+To separate functionality, the system is structured into routes, controllers, models, and services:
+
+- **Routes**: Handle incoming HTTP requests and forward them to the appropriate controllers.
+- **Controllers**: Process the request, invoke the necessary business logic or database operations, and generate the HTTP response.
+- **Models**: Interact directly with the database to fetch or write data.
+- **Services**: Contain reusable business logic, decoupling complex operations from controllers.
+
+This architecture ensures clear separation of concerns, maintainability, and scalability in the application.
 
 #### Deployment
 
