@@ -126,11 +126,15 @@ Here is a visual guide of the MERN stack, that displays the overall structure fo
 
   _"TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."_ - typescript.com
 
+  Provides static typing for JavaScript, improving code quality, catching errors early, and making the app easier to maintain and scale.
+
 - **Boostrap**
 
   <img src="./images/Bootstrap.webp" alt="Bootstrap logo" width="100" >
 
   _"Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins."_ - bootstrap.com
+
+  A CSS framework that simplifies responsive design and styling, helping create a user-friendly and mobile-compatible interface quickly.
 
 - **Chakra UI**
 
@@ -138,19 +142,31 @@ Here is a visual guide of the MERN stack, that displays the overall structure fo
 
 _"Accessible React components for building high-quality web apps and design systems."_ - chakra-ui.com
 
+- **Shadcn/UI**
+
+  <img src="./images/shadcn.png" alt="Shadcn logo" width="200" >
+
+_"Beautifully designed components that you can copy and paste into your apps. Made with Tailwind CSS. Open source."_ - ui.shadcn.com
+
+A modern, accessible component library that accelerates the development of elegant, reusable UI elements.
+
 - **Mongoose**
 
   <img src="./images/mongoose.png" alt="Mongoose logo" width="200" >
 
 _"Mongoose is an ODM (Object Data Modeling) library for MongoDB."_ - mongodb.com
 
-- **Amazon S3**
+Simplifies interactions with MongoDB by providing a structured way to define schemas and handle data validation and queries.
+
+- **Amazon S3** (stretch goal)
 
   <img src="./images/AmazonS3.png" alt="Amazon S3 logo" width="200" >
 
 _"Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance."_ - aws.amazon.com/s3
 
-For a complete list of technologies, please refer to **application architecture**.
+A scalable cloud storage solution to manage and serve images efficiently, which would enhance the app's functionality by supporting media uploads.
+
+For a complete list of technologies, please refer to [application architecture](#application-architecture-diagrams).
 
 ---
 
@@ -431,8 +447,8 @@ This list breaks down the key technologies used in each architectural component 
 - **npm**: For package management and dependency handling.
 - **Deployment Platforms**: Netlify, and Render for hosting the app.
 - **Testing Tools**:
-  - **Frontend**: Jest, React Testing Library.
-  - **Backend**: Mocha, Chai, Supertest.
+  - **Frontend**: Jest or React Testing Library.
+  - **Backend**: Mocha, Chai, or Supertest.
 
 ![Tech Architecture Diagram](./images/TechArchitectureDiagram.drawio.png)
 
