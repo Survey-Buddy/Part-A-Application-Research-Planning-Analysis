@@ -31,8 +31,10 @@
 
 ---
 
+### Description
+
 <details>
-<summary>### Description</summary>
+<summary>View</summary>
 
 This survey app is designed to make creating and managing surveys effortless. Whether you’re a student collecting data for a project, an individual seeking personal insights, or a business gathering customer feedback, this app provides a simple and intuitive experience for all users.
 
@@ -44,11 +46,17 @@ Built with a focus on simplicity and functionality, this app streamlines the pro
 
 ### Purpose
 
+<details>
+<summary>View</summary>
+
 The purpose of this app is to provide a straightforward and affordable alternative to complicated and feature-heavy survey platforms. Many existing options overwhelm users with unnecessary features and costs. This app focuses on simplicity, ensuring users can quickly create, share, and analyse surveys without distractions or hidden expenses. It's perfect for those who value ease of use and clarity over complexity.
 
----
+## </details>
 
 ### Target Audience
+
+<details>
+<summary>View</summary>
 
 ##### **Students:**
 
@@ -89,10 +97,14 @@ The purpose of this app is to provide a straightforward and affordable alternati
 
 - Track project progress and gather feedback from team members in real-time.
 - Use surveys for retrospectives, brainstorming sessions, or decision-making.
+</details>
 
 ---
 
 ### Technology Stack
+
+<details>
+<summary>View</summary>
 
 The MERN technology stack was used to build this application.
 
@@ -169,9 +181,12 @@ A scalable cloud storage solution to manage and serve images efficiently, which 
 
 For a complete list of technologies, please refer to [application architecture](#application-architecture-diagrams).
 
----
+## </details>
 
 ### Functionality & Features
+
+<details>
+<summary>View</summary>
 
 A Mind Map was created to explore and document potential application functionality and features.
 
@@ -225,9 +240,12 @@ To analyse competitor applications and gain a deeper understanding of their feat
 
 ![Mood Board](./images/MoodBoard.png)
 
----
+## </details>
 
 ### Crucial Decisions
+
+<details>
+<summary>View</summary>
 
 #### Survey Submission options
 
@@ -265,7 +283,7 @@ To analyse competitor applications and gain a deeper understanding of their feat
 
 After discovering how TypeScript's interface feature can strengthen understanding when building React components, I decided to deepen my understanding of TypeScript's React functionality to incorporate it into my application. This required additional learning, which I supported by completing an online 'Coding With Mosh' course.
 
----
+## </details>
 
 ### Logo Idea Exploration
 
