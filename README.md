@@ -14,25 +14,25 @@
 
 ### Application Table of Contents
 
-**Application Overview**
+**Application Overview** <br>
 
-▪ [Description](#application-description)
-▪ [Purpose](#application-purpose)
-▪ [Target Audience](#target-audience)
-▪ [Technology Stack](#technology-stack)
-**Features & Functionality**
-▪ [Features & Functionality](#functionality--features)
-▪ [Crucial Decisions](#crucial-decisions)
-▪ [Logo Idea Exploration](#logo-idea-exploration)
-**Data Flow & Architectural Diagrams**
-▪ [Data Flow Diagrams](#data-flow-diagrams)
-▪ [Application Architecture Diagrams](#application-architecture-diagrams)
-**UI/UX Research & Design**
-▪ [User Stories & Personas](#user-stories)
-▪ [Wireframes](#wireframes)
-**Project Management & Tracking**
-▪ [Project Management](#project-management)
-▪ [Trello Board Tracking](#trello-board-tracking)
+- [Description](#application-description)
+- [Purpose](#application-purpose)
+- [Target Audience](#target-audience)
+- [Technology Stack](#technology-stack)
+  **Features & Functionality** <br>
+- [Features & Functionality](#functionality--features)
+- [Crucial Decisions](#crucial-decisions)
+- [Logo Idea Exploration](#logo-idea-exploration)
+  **Data Flow & Architectural Diagrams** <br>
+- [Data Flow Diagrams](#data-flow-diagrams)
+- [Application Architecture Diagrams](#application-architecture-diagrams)
+  **UI/UX Research & Design** <br>
+- [User Stories & Personas](#user-stories)
+- [Wireframes](#wireframes)
+  **Project Management & Tracking** <br>
+- [Project Management](#project-management)
+- [Trello Board Tracking](#trello-board-tracking)
 
 ---
 
@@ -105,8 +105,6 @@ The purpose of this app is to provide a straightforward and affordable alternati
 - Use surveys for retrospectives, brainstorming sessions, or decision-making.
 </details>
 
----
-
 ### ▪ Technology Stack
 
 <details>
@@ -139,7 +137,7 @@ Here is a visual guide of the MERN stack, that displays the overall structure fo
 
 #### Other main technologies include:
 
-▪ **TypeScript**
+**TypeScript**
 
   <img src="./images/Typescript.png" alt="TypeScript logo" width="100" >
 
@@ -147,7 +145,7 @@ _"TypeScript is a strongly typed programming language that builds on JavaScript,
 
 Provides static typing for JavaScript, improving code quality, catching errors early, and making the app easier to maintain and scale.
 
-▪ **Boostrap**
+**Boostrap**
 
   <img src="./images/Bootstrap.webp" alt="Bootstrap logo" width="100" >
 
@@ -155,13 +153,13 @@ _"Powerful, extensible, and feature-packed frontend toolkit. Build and customize
 
 A CSS framework that simplifies responsive design and styling, helping create a user-friendly and mobile-compatible interface quickly.
 
-▪ **Chakra UI**
+**Chakra UI**
 
   <img src="./images/chakra.png" alt="Chakra logo" width="200" >
 
 _"Accessible React components for building high-quality web apps and design systems."_ - chakra-ui.com
 
-▪ **Shadcn/UI**
+**Shadcn/UI**
 
   <img src="./images/shadcn.png" alt="Shadcn logo" width="200" >
 
@@ -169,7 +167,7 @@ _"Beautifully designed components that you can copy and paste into your apps. Ma
 
 A modern, accessible component library that accelerates the development of elegant, reusable UI elements.
 
-▪ **Mongoose**
+**Mongoose**
 
   <img src="./images/mongoose.png" alt="Mongoose logo" width="200" >
 
@@ -177,7 +175,7 @@ _"Mongoose is an ODM (Object Data Modeling) library for MongoDB."_ - mongodb.com
 
 Simplifies interactions with MongoDB by providing a structured way to define schemas and handle data validation and queries.
 
-▪ **Amazon S3** (stretch goal)
+**Amazon S3** (stretch goal)
 
   <img src="./images/AmazonS3.png" alt="Amazon S3 logo" width="200" >
 
@@ -188,6 +186,8 @@ A scalable cloud storage solution to manage and serve images efficiently, which 
 For a complete list of technologies, please refer to [application architecture](#application-architecture-diagrams).
 
 </details>
+
+---
 
 ### ▪ Functionality & Features
 
