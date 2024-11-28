@@ -14,6 +14,10 @@
 
 ### Application Table of Contents
 
+<details>
+<summary>View</summary>
+<br>
+
 **Application Overview** <br>
 
 - [Description](#application-description)
@@ -41,6 +45,8 @@
 
 - [Project Management](#project-management)
 - [Trello Board Tracking](#trello-board-tracking)
+
+</details>
 
 ---
 
