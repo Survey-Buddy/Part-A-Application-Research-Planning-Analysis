@@ -2,13 +2,13 @@
 
 ## Part A
 
-#### View Front-End Repository -> [Here](https://github.com/Survey-Buddy/surveybuddy-client).
+#### ⭐ View Front-End Repository ➡️ [Here](https://github.com/Survey-Buddy/surveybuddy-client).
 
-#### View Back-End Repository -> [Here](https://github.com/Survey-Buddy/surveybuddy-backend).
+#### ⭐ View Back-End Repository ➡️ [Here](https://github.com/Survey-Buddy/surveybuddy-backend).
 
-#### Project Presentation -> Here.
+#### ⭐ Project Presentation ➡️ Here.
 
-#### Project Management Trello Board -> [Here](https://trello.com/b/5D0KTU38/survey-buddy-part-a).
+#### ⭐ Project Management Trello Board ➡️ [Here](https://trello.com/b/5D0KTU38/survey-buddy-part-a).
 
 ---
 
@@ -21,23 +21,23 @@
 - [Target Audience](#target-audience)
 - [Technology Stack](#technology-stack) <br>
 
-  **Features & Functionality** <br>
+**Features & Functionality** <br>
 
 - [Features & Functionality](#functionality--features)
 - [Crucial Decisions](#crucial-decisions)
 - [Logo Idea Exploration](#logo-idea-exploration)
 
-  **Data Flow & Architectural Diagrams** <br>
+**Data Flow & Architectural Diagrams** <br>
 
 - [Data Flow Diagrams](#data-flow-diagrams)
 - [Application Architecture Diagrams](#application-architecture-diagrams) <br>
 
-  **UI/UX Research & Design** <br>
+**UI/UX Research & Design** <br>
 
 - [User Stories & Personas](#user-stories)
 - [Wireframes](#wireframes) <br>
 
-  **Project Management & Tracking** <br>
+**Project Management & Tracking** <br>
 
 - [Project Management](#project-management)
 - [Trello Board Tracking](#trello-board-tracking)
