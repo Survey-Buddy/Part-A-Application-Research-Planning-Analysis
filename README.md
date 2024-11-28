@@ -31,7 +31,8 @@
 
 ---
 
-### Description
+<details>
+<summary>### Description</summary>
 
 This survey app is designed to make creating and managing surveys effortless. Whether you’re a student collecting data for a project, an individual seeking personal insights, or a business gathering customer feedback, this app provides a simple and intuitive experience for all users.
 
@@ -39,7 +40,7 @@ With just a few clicks, you can design a custom survey tailored to your needs, s
 
 Built with a focus on simplicity and functionality, this app streamlines the process of creating, distributing, and analysing surveys, making it the perfect tool for anyone looking to gather meaningful information quickly and efficiently.
 
----
+## </details>
 
 ### Purpose
 
