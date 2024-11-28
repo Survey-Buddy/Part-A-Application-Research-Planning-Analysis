@@ -568,6 +568,10 @@ Signing up to create a new SurveyBuddy account.
 
 ### Wireframes
 
+Low Fidelity Created with Simple Design Asset library.
+
+![Landing Page Wireframe](./images/Wireframe1.png)
+
 \*High Fidelity without styling.
 
 #### NavBar
