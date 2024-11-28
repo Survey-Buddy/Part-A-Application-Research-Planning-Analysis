@@ -287,6 +287,9 @@ After discovering how TypeScript's interface feature can strengthen understandin
 
 ### Logo Idea Exploration
 
+<details>
+<summary>View</summary>
+
 1.
 
 ![SurveyBuddy Logo idea 1](./images/SB_logo1.png)
@@ -304,9 +307,13 @@ After discovering how TypeScript's interface feature can strengthen understandin
 
 ![SurveyBuddy Logo idea 4](./images/SB_logo4.png)
 
+</details>
+
 ---
 
 ### Data Flow Diagrams
+
+<summary>View</summary>
 
 #### Data Flow Diagram Methods & Symbols
 
@@ -405,9 +412,12 @@ Breakdown of Processes in the Survey Application:
 
 ![New Survey Flow Chart](./images/Flowchart_NewSurvey.jpg)
 
----
+</details>
 
 ### Application Architecture Diagrams
+
+<details>
+<summary>View</summary>
 
 Server-side architecture refers to the framework that manages the operations and interactions of a web application's backend components. In this model, the server handles the core logic, processes client requests, interacts with databases, and delivers the appropriate responses to the client-side interface. This approach ensures efficient data processing, security, and scalability.
 
@@ -530,9 +540,14 @@ This architecture ensures clear separation of concerns, maintainability, and sca
 
 The final application will have its frontend hosted on [Netlify](https://www.netlify.com/), the backend on [Render](https://render.com/), and the database on [MongoDB Atlas](https://www.mongodb.com/docs/atlas/).
 
+<details>
+
 ---
 
 ### User Stories
+
+<details>
+<summary>View</summary>
 
 To enlarge user story diagram's please click on image.
 
@@ -583,9 +598,13 @@ Signing up to create a new SurveyBuddy account.
 ![User Story Refinement](./images/US_refinement.jpg)
 ![Database in and out](./images/DB-inoutflow.jpg)
 
----
+</details>
 
 ### Wireframes
+
+<details>
+
+<summary>View</summary>
 
 Low Fidelity Wireframes Created with Simple Design Asset library.
 
@@ -704,9 +723,14 @@ Interactions NA
 
 The UI for the survey app is designed to be simple and logical, ensuring an intuitive user experience. The wireframes above demonstrate exceptional planning of the project’s flow and structure, showcasing thoughtful space distribution, clear content prioritisation, and seamless navigation. They outline the intended actions, core functions, and relationships between screens, providing a comprehensive blueprint for the app’s development and ensuring a cohesive user journey.
 
+</details>
+
 ---
 
 ### Project Management
+
+<details>
+<summary>View</summary>
 
 ### **Project Management Process Evidence**
 
@@ -749,7 +773,12 @@ To manage the development of my survey app, I used a **Trello board** structured
 
 This process ensures that my development workflow remains organised, iterative, and adaptable while following Agile principles in a manner appropriate for solo work.
 
+</details>
+
 ### Trello Board Tracking
+
+<details>
+<summary>View</summary>
 
 _It is important to note that the **Extra Tech Learning** and **Planning Methodology** cards represent ongoing tasks and are not considered part of sprints. These cards remain in the **Doing** column throughout most of Part A development and planning._
 
@@ -816,5 +845,7 @@ An **Part A Review** card was added to the Trello Board, to be completed by mid 
 Completed a new set of wireframes using Simple Design System components and overall Part A review, in relation to the rubric. Started planning and structuring the final power point presentation.
 
 ![Trello Board 28th Nov](./images/28:11_trello.png)
+
+</details>
 
 ---
