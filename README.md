@@ -6,8 +6,6 @@
 
 #### ⭐ View Back-End Repository ➡️ [Here](https://github.com/Survey-Buddy/surveybuddy-backend).
 
-#### ⭐ Watch Part-A Project Presentation ➡️ Here.
-
 #### ⭐ View Project Management Trello Board ➡️ [Here](https://trello.com/b/5D0KTU38/survey-buddy-part-a).
 
 ---
@@ -149,9 +147,9 @@ Here is a visual guide of the MERN stack, that displays the overall structure fo
 
 ![MERN Architecture](./images/MernArchitecture.png)
 
-#### Other main technologies include:
+### Other main technologies include:
 
-**TypeScript**
+##### **TypeScript**
 
   <img src="./images/Typescript.png" alt="TypeScript logo" width="100" >
 
@@ -159,7 +157,7 @@ _"TypeScript is a strongly typed programming language that builds on JavaScript,
 
 Provides static typing for JavaScript, improving code quality, catching errors early, and making the app easier to maintain and scale.
 
-**Boostrap**
+##### **Boostrap**
 
   <img src="./images/Bootstrap.webp" alt="Bootstrap logo" width="100" >
 
@@ -167,13 +165,13 @@ _"Powerful, extensible, and feature-packed frontend toolkit. Build and customize
 
 A CSS framework that simplifies responsive design and styling, helping create a user-friendly and mobile-compatible interface quickly.
 
-**Chakra UI**
+##### **Chakra UI**
 
   <img src="./images/chakra.png" alt="Chakra logo" width="200" >
 
 _"Accessible React components for building high-quality web apps and design systems."_ - chakra-ui.com
 
-**Shadcn/UI**
+##### **Shadcn/UI**
 
   <img src="./images/shadcn.png" alt="Shadcn logo" width="200" >
 
@@ -181,7 +179,7 @@ _"Beautifully designed components that you can copy and paste into your apps. Ma
 
 A modern, accessible component library that accelerates the development of elegant, reusable UI elements.
 
-**Mongoose**
+##### **Mongoose**
 
   <img src="./images/mongoose.png" alt="Mongoose logo" width="200" >
 
@@ -189,7 +187,7 @@ _"Mongoose is an ODM (Object Data Modeling) library for MongoDB."_ - mongodb.com
 
 Simplifies interactions with MongoDB by providing a structured way to define schemas and handle data validation and queries.
 
-**Amazon S3** (stretch goal)
+##### **Amazon S3** (stretch goal)
 
   <img src="./images/AmazonS3.png" alt="Amazon S3 logo" width="200" >
 
@@ -212,7 +210,7 @@ A Mind Map was created to explore and document potential application functionali
 
 ![Mind Map](./images/MindMap.jpg)
 
-#### Minimum Viable Product Features
+### Minimum Viable Product Features
 
 **User Authorisation:** Ensures that only survey creators can access and manage their own surveys and data, stopping unauthorised access.
 
@@ -226,7 +224,7 @@ A Mind Map was created to explore and document potential application functionali
 
 **Data Display:** Displays survey results in a user-friendly layout, showing individual responses and aggregated data where applicable.
 
-#### Stretch Goal Features
+### Stretch Goal Features
 
 **Written Summaries:** Generate detailed written summaries of survey results for easy interpretation.
 
@@ -254,7 +252,7 @@ A Mind Map was created to explore and document potential application functionali
 
 ![Features Board](./images/features.jpg)
 
-#### Mood Board
+### Mood Board
 
 To analyse competitor applications and gain a deeper understanding of their features and user interfaces, I created a Mood Board showcasing aesthetics and layouts that resonated with me.
 
@@ -268,7 +266,7 @@ To analyse competitor applications and gain a deeper understanding of their feat
 <summary>View</summary>
 <br>
 
-#### Survey Submission options
+### Survey Submission options
 
 1. Make API call to store question data after each answered question:
 
@@ -300,7 +298,7 @@ To analyse competitor applications and gain a deeper understanding of their feat
   - If a user were to abandon the survey without submission, or their survey expires, their responses will be lost.
 - No Real-Time Updates
 
-#### TypeScript
+### TypeScript
 
 After discovering how TypeScript's interface feature can strengthen understanding when building React components, I decided to deepen my understanding of TypeScript's React functionality to incorporate it into my application. This required additional learning, which I supported by completing an online 'Coding With Mosh' course.
 
@@ -338,7 +336,7 @@ After discovering how TypeScript's interface feature can strengthen understandin
 <summary>View</summary>
 <br>
 
-#### Data Flow Diagram Methods & Symbols
+### Data Flow Diagram Methods & Symbols
 
 \*For the following diagrams, the **Yourdon + De Marco** diagram convention will be strictly followed, clearly depicting where data is coming from, where it is going, and how it is being stored.
 
@@ -351,15 +349,15 @@ There are three levels of Data Dlow Diagrams (DFDs), these inlclude:
 - Level-1
 - Level-2
 
-#### GeeksForGeeks describe 0-level as:
+##### **GeeksForGeeks describe 0-level as:**
 
 _"... also known as a context diagram. It’s designed to be an abstraction view, showing the system as a single process with its relationship to external entities."_
 
-#### GeeksForGeeks describe 1-level as:
+##### **GeeksForGeeks describe 1-level as:**
 
 _"This level provides a more detailed view of the system by breaking down the major processes identified in the level 0 DFD into sub-processes. Each sub-process is depicted as a separate process on the level 1 DFD."_
 
-#### GeeksForGeeks describe 2-level as:
+##### **GeeksForGeeks describe 2-level as:**
 
 _"This level provides an even more detailed view of the system by breaking down the sub-processes identified in the level 1 DFD into further sub-processes."_
 
@@ -417,21 +415,21 @@ _"This level provides an even more detailed view of the system by breaking down 
 
 ### Further Data Flow Diagrams
 
-#### High Level Data Flow Chart Diagram
+**High Level Data Flow Chart Diagram**
 
 ![High Level Data Flow Diagram](./images/Dataflow_highlevel.jpg)
 
-#### Level 1 Flow Chart Diagram
+**Level 1 Flow Chart Diagram**
 
 ![Level 1 Flow Chart](./images/Level1_FlowChart.jpg)
 
 ### Level 2 Flow Chart Diagrams
 
-#### Respondent Survey Retrieval
+**Respondent Survey Retrieval**
 
 ![Survey Respondent Flow Chart](./images/Flowchart_Respondent.jpg)
 
-#### New Survey Creation
+**New Survey Creation**
 
 ![New Survey Flow Chart](./images/Flowchart_NewSurvey.jpg)
 
@@ -442,7 +440,7 @@ _"This level provides an even more detailed view of the system by breaking down 
 <details>
 <summary>View</summary>
 <br>
-Server-side architecture refers to the framework that manages the operations and interactions of a web application's backend components. In this model, the server handles the core logic, processes client requests, interacts with databases, and delivers the appropriate responses to the client-side interface. This approach ensures efficient data processing, security, and scalability.
+Server-side architecture refers to the framework that manages the operations and interactions of a web application's backend components. In this model, the server handles the core logic, processes client requests, interacts with databases, and delivers the appropriate responses to the client-side interface. This approach ensures efficient data processing, security, and scalability. <br>
 
 In the context of the **SurveyBuddy** application, the server-side architecture is implemented as follows:
 
@@ -460,7 +458,7 @@ This server-side architecture ensures that your survey application operates effi
 
 \*It is important to note that both JWT generation and database connections rely on secret keys, which are essential for secure token creation and authentication. Without these keys, the app cannot function properly.
 
-#### **Tech Stack Architecture**
+### **Tech Stack Architecture**
 
 This list breaks down the key technologies used in each architectural component of the app.
 
@@ -504,7 +502,7 @@ This list breaks down the key technologies used in each architectural component 
 
 ![Tech Architecture Diagram](./images/TechArchitectureDiagram.drawio.png)
 
-#### MERN Stack Architecture
+### MERN Stack Architecture
 
 ![MERN Stack Architecture High View](./images/mern_architecture.jpeg)
 
@@ -512,7 +510,7 @@ The frontend and backend communicate using **HTTP request** and response calls, 
 
 The frontend will utilise reusable **React components** wherever possible to align with **DRY** (Don't Repeat Yourself) coding principles. The backend will be structured into **routes**, **controllers**, and **models**, each focusing on a specific task or concern to maintain clear **separation of responsibilities**.
 
-#### File System Architecture
+### File System Architecture
 
 ```surveybuddy/
 ├── client/                # Frontend code
@@ -558,10 +556,6 @@ To separate functionality, the system is structured into routes, controllers, mo
 - **Services**: Contain reusable business logic, decoupling complex operations from controllers.
 
 This architecture ensures clear separation of concerns, maintainability, and scalability in the application.
-
-#### Deployment
-
-The final application will have its frontend hosted on [Netlify](https://www.netlify.com/), the backend on [Render](https://render.com/), and the database on [MongoDB Atlas](https://www.mongodb.com/docs/atlas/).
 
 </details>
 
@@ -662,7 +656,7 @@ This wireframe demonstrates the relationships between screens.
 
 ![Interactivity Wireframe Page](./images/newWFsPrototype.png)
 
-**Initial Wireframes Design**
+### Initial Wireframes Design
 
 #### NavBar
 
@@ -868,9 +862,9 @@ An **Part A Review** card was added to the Trello Board, to be completed by mid 
 
 #### 28th Nov
 
-Today I completed a new set of wireframes using Simple Design System components in figma, and the Part A review card, in relation to the HD requirements in the rubric. I started planning and structuring the final power point presentation, though after speaking with my lecturer, it was decided that the presentation I was planning will take a more simple approach, so that the application build can take priority.
+Today I completed a new set of wireframes using Simple Design System components in Figma, and the Part A review card, in relation to the HD requirements in the rubric. I started planning and structuring the final power point presentation, though, after speaking with my lecturer, it was decided that the presentation I was planning will take a more simple approach, so that the application build can take priority.
 
-I am now confident that Part-A of the assignment is complete at a high quality, especially as it is a solo project, and only minor styling edits will now be necesary, before the final submission on Sunday.
+I am now confident that Part-A rubric points of the assignment are all completed to a level of quality, especially given the application is a solo project, and only minor styling edits will now be necesary before the final submission on Sunday.
 
 ![Trello Board 28th Nov](./images/28:11_trello.png)
 
