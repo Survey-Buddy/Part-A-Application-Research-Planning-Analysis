@@ -14,28 +14,33 @@
 
 ### Application Table of Contents
 
-- [Description](#application-description)
-- [Purpose](#application-purpose)
-- [Target Audience](#target-audience)
-- [Technology Stack](#technology-stack)
-- [Features & Functionality](#functionality--features)
-- [Crucial Decisions](#crucial-decisions)
-- [Logo Idea Exploration](#logo-idea-exploration)
-- [Data Flow Diagrams](#data-flow-diagrams)
-- [Application Architecture Diagrams](#application-architecture-diagrams)
-- [User Stories & Personas](#user-stories)
-- [Wireframes](#wireframes)
-- [Project Management](#project-management)
-- [Trello Board Tracking](#trello-board-tracking)
-- [Reference List](#reference-list)
+**Application Overview**
+
+▪ [Description](#application-description)
+▪ [Purpose](#application-purpose)
+▪ [Target Audience](#target-audience)
+▪ [Technology Stack](#technology-stack)
+**Features & Functionality**
+▪ [Features & Functionality](#functionality--features)
+▪ [Crucial Decisions](#crucial-decisions)
+▪ [Logo Idea Exploration](#logo-idea-exploration)
+**Data Flow & Architectural Diagrams**
+▪ [Data Flow Diagrams](#data-flow-diagrams)
+▪ [Application Architecture Diagrams](#application-architecture-diagrams)
+**UI/UX Research & Design**
+▪ [User Stories & Personas](#user-stories)
+▪ [Wireframes](#wireframes)
+**Project Management & Tracking**
+▪ [Project Management](#project-management)
+▪ [Trello Board Tracking](#trello-board-tracking)
 
 ---
 
-### Description
+### ▪ Description
 
 <details>
 <summary>View</summary>
-
+<br>
 This survey app is designed to make creating and managing surveys effortless. Whether you’re a student collecting data for a project, an individual seeking personal insights, or a business gathering customer feedback, this app provides a simple and intuitive experience for all users.
 
 With just a few clicks, you can design a custom survey tailored to your needs, select recipients from your network, and send it out instantly. The app ensures that managing responses is just as straightforward. Once the survey is completed, the collected data is displayed in an organised and easy-to-understand format, allowing you to gain valuable insights without hassle.
@@ -44,19 +49,20 @@ Built with a focus on simplicity and functionality, this app streamlines the pro
 
 ## </details>
 
-### Purpose
+### ▪ Purpose
 
 <details>
 <summary>View</summary>
-
+<br>
 The purpose of this app is to provide a straightforward and affordable alternative to complicated and feature-heavy survey platforms. Many existing options overwhelm users with unnecessary features and costs. This app focuses on simplicity, ensuring users can quickly create, share, and analyse surveys without distractions or hidden expenses. It's perfect for those who value ease of use and clarity over complexity.
 
 ## </details>
 
-### Target Audience
+### ▪ Target Audience
 
 <details>
 <summary>View</summary>
+<br>
 
 ##### **Students:**
 
@@ -101,11 +107,11 @@ The purpose of this app is to provide a straightforward and affordable alternati
 
 ---
 
-### Technology Stack
+### ▪ Technology Stack
 
 <details>
 <summary>View</summary>
-
+<br>
 The MERN technology stack was used to build this application.
 
 MongoDB explains a tech stack as…
@@ -133,29 +139,29 @@ Here is a visual guide of the MERN stack, that displays the overall structure fo
 
 #### Other main technologies include:
 
-- **TypeScript**
+▪ **TypeScript**
 
   <img src="./images/Typescript.png" alt="TypeScript logo" width="100" >
 
-  _"TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."_ - typescript.com
+_"TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."_ - typescript.com
 
-  Provides static typing for JavaScript, improving code quality, catching errors early, and making the app easier to maintain and scale.
+Provides static typing for JavaScript, improving code quality, catching errors early, and making the app easier to maintain and scale.
 
-- **Boostrap**
+▪ **Boostrap**
 
   <img src="./images/Bootstrap.webp" alt="Bootstrap logo" width="100" >
 
-  _"Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins."_ - bootstrap.com
+_"Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins."_ - bootstrap.com
 
-  A CSS framework that simplifies responsive design and styling, helping create a user-friendly and mobile-compatible interface quickly.
+A CSS framework that simplifies responsive design and styling, helping create a user-friendly and mobile-compatible interface quickly.
 
-- **Chakra UI**
+▪ **Chakra UI**
 
   <img src="./images/chakra.png" alt="Chakra logo" width="200" >
 
 _"Accessible React components for building high-quality web apps and design systems."_ - chakra-ui.com
 
-- **Shadcn/UI**
+▪ **Shadcn/UI**
 
   <img src="./images/shadcn.png" alt="Shadcn logo" width="200" >
 
@@ -163,7 +169,7 @@ _"Beautifully designed components that you can copy and paste into your apps. Ma
 
 A modern, accessible component library that accelerates the development of elegant, reusable UI elements.
 
-- **Mongoose**
+▪ **Mongoose**
 
   <img src="./images/mongoose.png" alt="Mongoose logo" width="200" >
 
@@ -171,7 +177,7 @@ _"Mongoose is an ODM (Object Data Modeling) library for MongoDB."_ - mongodb.com
 
 Simplifies interactions with MongoDB by providing a structured way to define schemas and handle data validation and queries.
 
-- **Amazon S3** (stretch goal)
+▪ **Amazon S3** (stretch goal)
 
   <img src="./images/AmazonS3.png" alt="Amazon S3 logo" width="200" >
 
@@ -181,13 +187,13 @@ A scalable cloud storage solution to manage and serve images efficiently, which 
 
 For a complete list of technologies, please refer to [application architecture](#application-architecture-diagrams).
 
-## </details>
+</details>
 
-### Functionality & Features
+### ▪ Functionality & Features
 
 <details>
 <summary>View</summary>
-
+<br>
 A Mind Map was created to explore and document potential application functionality and features.
 
 ![Mind Map](./images/MindMap.jpg)
@@ -242,10 +248,11 @@ To analyse competitor applications and gain a deeper understanding of their feat
 
 ## </details>
 
-### Crucial Decisions
+### ▪ Crucial Decisions
 
 <details>
 <summary>View</summary>
+<br>
 
 #### Survey Submission options
 
@@ -285,11 +292,11 @@ After discovering how TypeScript's interface feature can strengthen understandin
 
 ## </details>
 
-### Logo Idea Exploration
+### ▪ Logo Idea Exploration
 
 <details>
 <summary>View</summary>
-
+<br>
 1.
 
 ![SurveyBuddy Logo idea 1](./images/SB_logo1.png)
@@ -311,9 +318,11 @@ After discovering how TypeScript's interface feature can strengthen understandin
 
 ---
 
-### Data Flow Diagrams
+### ▪ Data Flow Diagrams
 
+<details>
 <summary>View</summary>
+<br>
 
 #### Data Flow Diagram Methods & Symbols
 
@@ -414,11 +423,11 @@ Breakdown of Processes in the Survey Application:
 
 </details>
 
-### Application Architecture Diagrams
+### ▪ Application Architecture Diagrams
 
 <details>
 <summary>View</summary>
-
+<br>
 Server-side architecture refers to the framework that manages the operations and interactions of a web application's backend components. In this model, the server handles the core logic, processes client requests, interacts with databases, and delivers the appropriate responses to the client-side interface. This approach ensures efficient data processing, security, and scalability.
 
 In the context of the **SurveyBuddy** application, the server-side architecture is implemented as follows:
@@ -443,41 +452,41 @@ This list breaks down the key technologies used in each architectural component 
 
 #### **Frontend**
 
-- **React**: Framework for building the user interface.
-- **useContext API**: For managing global state within the app.
-- **React Router DOM**: For routing and navigation between pages.
-- **React Forms**: For handling survey inputs and user data.
-- **D3.js**: For creating interactive charts and visualising survey analytics.
-- **Styling Library** (Bootstrap): For designing the user interface.
-- **HTTP Requests** (Fetch or Axios): For communicating with the backend.
-- **Validation** (Zod): For client side validation.
+▪ **React**: Framework for building the user interface.
+▪ **useContext API**: For managing global state within the app.
+▪ **React Router DOM**: For routing and navigation between pages.
+▪ **React Forms**: For handling survey inputs and user data.
+▪ **D3.js**: For creating interactive charts and visualising survey analytics.
+▪ **Styling Library** (Bootstrap): For designing the user interface.
+▪ **HTTP Requests** (Fetch or Axios): For communicating with the backend.
+▪ **Validation** (Zod): For client side validation.
 
 #### **Backend (Express)**
 
-- **Express.js**: Framework for building the server and API.
-- **JWT**: For secure token-based authentication.
-- **bcrypt**: For hashing and securely storing passwords.
-- **dotenv**: For managing environment variables securely.
-- **Mongoose**: For interacting with the MongoDB database.
-- **Middleware**:
-  - **cors**: For handling cross-origin requests.
-  - **body-parser**: For parsing incoming request data (built-in for recent Express versions).
-- **Node.js**: Runtime environment for executing JavaScript server-side.
+▪ **Express.js**: Framework for building the server and API.
+▪ **JWT**: For secure token▪based authentication.
+▪ **bcrypt**: For hashing and securely storing passwords.
+▪ **dotenv**: For managing environment variables securely.
+▪ **Mongoose**: For interacting with the MongoDB database.
+▪ **Middleware**:
+▪ **cors**: For handling cross-origin requests.
+▪ **body▪parser**: For parsing incoming request data (built-in for recent Express versions).
+▪ **Node.js**: Runtime environment for executing JavaScript server▪side.
 
 #### **Database (MongoDB Atlas)**
 
-- **MongoDB**: Cloud-based database for storing app data.
-- **Mongoose**: Object Data Modeling (ODM) library for database communication.
-- **Data Validation**: Ensures data integrity using Mongoose schemas.
+▪ **MongoDB**: Cloud-based database for storing app data.
+▪ **Mongoose**: Object Data Modeling (ODM) library for database communication.
+▪ **Data Validation**: Ensures data integrity using Mongoose schemas.
 
 #### **General Tools**
 
-- **Git**: For version control and source code management.
-- **npm**: For package management and dependency handling.
-- **Deployment Platforms**: Netlify, and Render for hosting the app.
-- **Testing Tools**:
-  - **Frontend**: Jest or React Testing Library.
-  - **Backend**: Mocha, Chai, or Supertest.
+▪ **Git**: For version control and source code management.
+▪ **npm**: For package management and dependency handling.
+▪ **Deployment Platforms**: Netlify, and Render for hosting the app.
+▪ **Testing Tools**:
+▪ **Frontend**: Jest or React Testing Library.
+▪ **Backend**: Mocha, Chai, or Supertest.
 
 ![Tech Architecture Diagram](./images/TechArchitectureDiagram.drawio.png)
 
@@ -544,11 +553,11 @@ The final application will have its frontend hosted on [Netlify](https://www.net
 
 ---
 
-### User Stories
+### ▪ User Stories
 
 <details>
 <summary>View</summary>
-
+<br>
 To enlarge user story diagram's please click on image.
 
 #### 1. Sam's User Story
@@ -600,12 +609,11 @@ Signing up to create a new SurveyBuddy account.
 
 </details>
 
-### Wireframes
+### ▪ Wireframes
 
 <details>
-
 <summary>View</summary>
-
+<br>
 Low Fidelity Wireframes Created with Simple Design Asset library.
 
 **Landing Page**
@@ -727,10 +735,11 @@ The UI for the survey app is designed to be simple and logical, ensuring an intu
 
 ---
 
-### Project Management
+### ▪ Project Management
 
 <details>
 <summary>View</summary>
+<br>
 
 ### **Project Management Process Evidence**
 
@@ -775,10 +784,11 @@ This process ensures that my development workflow remains organised, iterative, 
 
 </details>
 
-### Trello Board Tracking
+### ▪ Trello Board Tracking
 
 <details>
 <summary>View</summary>
+<br>
 
 _It is important to note that the **Extra Tech Learning** and **Planning Methodology** cards represent ongoing tasks and are not considered part of sprints. These cards remain in the **Doing** column throughout most of Part A development and planning._
 
