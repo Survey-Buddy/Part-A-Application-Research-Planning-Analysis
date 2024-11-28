@@ -1,14 +1,14 @@
 # SurveyBuddy Application
 
-## Part A
+## Part A - Application Research, Planning, & Analysis
 
 #### ⭐ View Front-End Repository ➡️ [Here](https://github.com/Survey-Buddy/surveybuddy-client).
 
 #### ⭐ View Back-End Repository ➡️ [Here](https://github.com/Survey-Buddy/surveybuddy-backend).
 
-#### ⭐ Project Presentation ➡️ Here.
+#### ⭐ Watch Part-A Project Presentation ➡️ Here.
 
-#### ⭐ Project Management Trello Board ➡️ [Here](https://trello.com/b/5D0KTU38/survey-buddy-part-a).
+#### ⭐ View Project Management Trello Board ➡️ [Here](https://trello.com/b/5D0KTU38/survey-buddy-part-a).
 
 ---
 
@@ -367,47 +367,47 @@ _"This level provides an even more detailed view of the system by breaking down 
 
 ![Level 0 and 1 DFD](./images/DFDiagram.png)
 
-0-Level Overview of the Survey App:
+**0-Level Overview of the Survey App:**
 
-- _External entities:_
+- **_External entities:_**
 
   - Survey Creators: Submit survey details to create surveys.
   - Survey Respondents: Provide responses by filling out surveys.
 
-- _Central system:_
+- **_Central system:_**
 
   - Survey Application System processes all user requests.
 
-- _Data flows:_
+- **_Data flows:_**
 
   - Survey Creators → Submit survey details → Survey Application System.
   - Survey Respondents → Submit survey responses → Survey Application System.
   - Survey Application System → Fetch survey data and results → Survey Creators.
 
-- _Data storage:_
+- **_Data storage:_**
 
   - All survey data (e.g., questions, responses) is securely stored in MongoDB Atlas.
 
-Breakdown of Processes in the Survey Application:
+**Breakdown of Processes in the Survey Application:**
 
-- _Create Survey:_
+- **_Create Survey:_**
 
   - Survey Creator inputs survey details (title, description, questions).
   - Data is sent via RESTful API to the backend.
   - Backend validates and stores the survey in MongoDB Atlas.
 
-- _Distribute Survey:_
+- **_Distribute Survey:_**
 
   - A unique link (/survey/{surveyId}) is generated and shared with respondents.
   - Link routes users to a dynamically rendered survey page.
 
-- _Submit Responses:_
+- **_Submit Responses:_**
 
   - Respondent answers survey questions.
   - Responses are sent via API to the backend for validation and storage.
   - Stored responses are associated with the respective survey in MongoDB Atlas.
 
-- View Results:
+- **_View Results:_**
 
   - Survey Creator requests survey analytics.
   - Backend processes stored responses and generates aggregated data.
@@ -466,41 +466,41 @@ This list breaks down the key technologies used in each architectural component 
 
 #### **Frontend**
 
-▪ **React**: Framework for building the user interface.
-▪ **useContext API**: For managing global state within the app.
-▪ **React Router DOM**: For routing and navigation between pages.
-▪ **React Forms**: For handling survey inputs and user data.
-▪ **D3.js**: For creating interactive charts and visualising survey analytics.
-▪ **Styling Library** (Bootstrap): For designing the user interface.
-▪ **HTTP Requests** (Fetch or Axios): For communicating with the backend.
-▪ **Validation** (Zod): For client side validation.
+- **React**: Framework for building the user interface.
+- **useContext API**: For managing global state within the app.
+- **React Router DOM**: For routing and navigation between pages.
+- **React Forms**: For handling survey inputs and user data.
+- **D3.js**: For creating interactive charts and visualising survey analytics.
+- **Styling Library** (Bootstrap): For designing the user interface.
+- **HTTP Requests** (Fetch or Axios): For communicating with the backend.
+- **Validation** (Zod): For client side validation.
 
 #### **Backend (Express)**
 
-▪ **Express.js**: Framework for building the server and API.
-▪ **JWT**: For secure token▪based authentication.
-▪ **bcrypt**: For hashing and securely storing passwords.
-▪ **dotenv**: For managing environment variables securely.
-▪ **Mongoose**: For interacting with the MongoDB database.
-▪ **Middleware**:
-▪ **cors**: For handling cross-origin requests.
-▪ **body▪parser**: For parsing incoming request data (built-in for recent Express versions).
-▪ **Node.js**: Runtime environment for executing JavaScript server▪side.
+- **Express.js**: Framework for building the server and API.
+- **JWT**: For secure token-based authentication.
+- **bcrypt**: For hashing and securely storing passwords.
+- **dotenv**: For managing environment variables securely.
+- **Mongoose**: For interacting with the MongoDB database.
+- **Middleware**:
+- **cors**: For handling cross-origin requests.
+- **body-parser**: For parsing incoming request data (built-in for recent Express versions).
+- **Node.js**: Runtime environment for executing JavaScript server-side.
 
 #### **Database (MongoDB Atlas)**
 
-▪ **MongoDB**: Cloud-based database for storing app data.
-▪ **Mongoose**: Object Data Modeling (ODM) library for database communication.
-▪ **Data Validation**: Ensures data integrity using Mongoose schemas.
+- **MongoDB**: Cloud-based database for storing app data.
+- **Mongoose**: Object Data Modeling (ODM) library for database communication.
+- **Data Validation**: Ensures data integrity using Mongoose schemas.
 
 #### **General Tools**
 
-▪ **Git**: For version control and source code management.
-▪ **npm**: For package management and dependency handling.
-▪ **Deployment Platforms**: Netlify, and Render for hosting the app.
-▪ **Testing Tools**:
-▪ **Frontend**: Jest or React Testing Library.
-▪ **Backend**: Mocha, Chai, or Supertest.
+- **Git**: For version control and source code management.
+- **npm**: For package management and dependency handling.
+- **Deployment Platforms**: Netlify, and Render for hosting the app.
+- **Testing Tools**:
+- **Frontend**: Jest or React Testing Library.
+- **Backend**: Mocha, Chai, or Supertest.
 
 ![Tech Architecture Diagram](./images/TechArchitectureDiagram.drawio.png)
 
@@ -628,7 +628,9 @@ Signing up to create a new SurveyBuddy account.
 <details>
 <summary>View</summary>
 <br>
+
 Low Fidelity Wireframes Created with Simple Design Asset library.
+<br>
 
 **Landing Page**
 
@@ -866,7 +868,9 @@ An **Part A Review** card was added to the Trello Board, to be completed by mid 
 
 #### 28th Nov
 
-Completed a new set of wireframes using Simple Design System components and overall Part A review, in relation to the rubric. Started planning and structuring the final power point presentation.
+Today I completed a new set of wireframes using Simple Design System components in figma, and the Part A review card, in relation to the HD requirements in the rubric. I started planning and structuring the final power point presentation, though after speaking with my lecturer, it was decided that the presentation I was planning will take a more simple approach, so that the application build can take priority.
+
+I am now confident that Part-A of the assignment is complete at a high quality, especially as it is a solo project, and only minor styling edits will now be necesary, before the final submission on Sunday.
 
 ![Trello Board 28th Nov](./images/28:11_trello.png)
 
