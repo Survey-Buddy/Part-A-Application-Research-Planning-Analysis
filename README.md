@@ -19,18 +19,26 @@
 - [Description](#application-description)
 - [Purpose](#application-purpose)
 - [Target Audience](#target-audience)
-- [Technology Stack](#technology-stack)
+- [Technology Stack](#technology-stack) <br>
+
   **Features & Functionality** <br>
+
 - [Features & Functionality](#functionality--features)
 - [Crucial Decisions](#crucial-decisions)
 - [Logo Idea Exploration](#logo-idea-exploration)
+
   **Data Flow & Architectural Diagrams** <br>
+
 - [Data Flow Diagrams](#data-flow-diagrams)
-- [Application Architecture Diagrams](#application-architecture-diagrams)
+- [Application Architecture Diagrams](#application-architecture-diagrams) <br>
+
   **UI/UX Research & Design** <br>
+
 - [User Stories & Personas](#user-stories)
-- [Wireframes](#wireframes)
+- [Wireframes](#wireframes) <br>
+
   **Project Management & Tracking** <br>
+
 - [Project Management](#project-management)
 - [Trello Board Tracking](#trello-board-tracking)
 
