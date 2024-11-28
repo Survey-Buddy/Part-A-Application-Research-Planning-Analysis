@@ -568,11 +568,37 @@ Signing up to create a new SurveyBuddy account.
 
 ### Wireframes
 
-Low Fidelity Created with Simple Design Asset library.
+Low Fidelity Wireframes Created with Simple Design Asset library.
+
+**Landing Page**
 
 ![Landing Page Wireframe](./images/Wireframe1.png)
 
-\*High Fidelity without styling.
+**Surveys Page**
+
+![Surveys Page Wireframe](./images/Wireframe2.png)
+
+**Login Page**
+
+![Login Page Wireframe](./images/Wireframe3.png)
+
+**Survey Page**
+
+![Survey Page Wireframe](./images/Wireframe4.png)
+
+**Pricing Page**
+
+![Pricing Page Wireframe](./images/Wireframe5.png)
+
+**Community Page**
+
+![Community Page Wireframe](./images/Wireframe6.png)
+
+**Interactivity Wireframe Page**
+
+![Interactivity Wireframe Page](./images/newWFsPrototype.png)
+
+**Initial Wireframes Design**
 
 #### NavBar
 
