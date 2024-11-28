@@ -596,6 +596,8 @@ Low Fidelity Wireframes Created with Simple Design Asset library.
 
 **Interactivity Wireframe Page**
 
+This wireframe demonstrates the relationships between screens.
+
 ![Interactivity Wireframe Page](./images/newWFsPrototype.png)
 
 **Initial Wireframes Design**
@@ -790,8 +792,10 @@ An **Part A Review** card was added to the Trello Board, to be completed by mid 
 
 ![Trello Board 21th Nov](./images/21:11_trello.png)
 
----
+#### 28th Nov
 
-### Reference List
+Completed a new set of wireframes using Simple Design System components and overall Part A review, in relation to the rubric. Started planning and structuring the final power point presentation.
+
+![Trello Board 28th Nov](./images/28:11_trello.png)
 
 ---
