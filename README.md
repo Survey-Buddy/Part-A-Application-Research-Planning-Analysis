@@ -540,7 +540,7 @@ This architecture ensures clear separation of concerns, maintainability, and sca
 
 The final application will have its frontend hosted on [Netlify](https://www.netlify.com/), the backend on [Render](https://render.com/), and the database on [MongoDB Atlas](https://www.mongodb.com/docs/atlas/).
 
-<details>
+</details>
 
 ---
 
