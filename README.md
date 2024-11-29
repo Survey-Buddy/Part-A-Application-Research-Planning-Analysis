@@ -10,36 +10,36 @@
 
 ---
 
-### Application Table of Contents
+### ▪ Application Table of Contents
 
 <details>
 <summary>View</summary>
 <br>
 
-**Application Overview** <br>
+**▪ Application Overview** <br>
 
 - [Description](#application-description)
 - [Purpose](#application-purpose)
 - [Target Audience](#target-audience)
 - [Technology Stack](#technology-stack) <br>
 
-**Features & Functionality** <br>
+**▪ Features & Functionality** <br>
 
 - [Features & Functionality](#functionality--features)
 - [Crucial Decisions](#crucial-decisions)
 - [Logo Idea Exploration](#logo-idea-exploration)
 
-**Data Flow & Architectural Diagrams** <br>
+**▪ Data Flow & Architectural Diagrams** <br>
 
 - [Data Flow Diagrams](#data-flow-diagrams)
 - [Application Architecture Diagrams](#application-architecture-diagrams) <br>
 
-**UI/UX Research & Design** <br>
+**▪ UI/UX Research & Design** <br>
 
 - [User Stories & Personas](#user-stories)
 - [Wireframes](#wireframes) <br>
 
-**Project Management & Tracking** <br>
+**▪ Project Management & Tracking** <br>
 
 - [Project Management](#project-management)
 - [Trello Board Tracking](#trello-board-tracking)
@@ -628,33 +628,76 @@ Low Fidelity Wireframes Created with Simple Design Asset library.
 
 **Landing Page**
 
+The landing page is the first page users see when visiting SurveyBuddy, it allows users to learn about the application, view use cases, and to signup or login to their user account. This page should be inviting and simple, with a simple goal of encouraging user to register.
+
 ![Landing Page Wireframe](./images/Wireframe1.png)
+
+Intended Actions:
+
+- Sign up
+- Login
+- View use cases
+- Contact
+- Register email
 
 **Surveys Page**
 
+The purpose of this page is to allow users to view their created surveys, segregate them by organisation or by tag, perform CRUD operations on them, and click links to view analytics.
+
 ![Surveys Page Wireframe](./images/Wireframe2.png)
+
+Intended Actions:
+
+- View existing user created surveys
+- Search for a existing survey
 
 **Login Page**
 
+The purpose of this page is to allow users to login to their account by providing a username or email, and their secret password.
+
 ![Login Page Wireframe](./images/Wireframe3.png)
+
+Intended Actions:
+
+- Enter user login details (username or email, and password)
 
 **Survey Page**
 
+The purpose of this page is to allow users, registered or not registered, to answer survey questions and submit their responses.
+
 ![Survey Page Wireframe](./images/Wireframe4.png)
+
+Intended Actions:
+
+- Answer survey questions
 
 **Pricing Page**
 
+The purpose of this page is to allow users to learn about what is provided in each payment tier, and links to update their account to a paid monthly subscription service should they desire.
+
 ![Pricing Page Wireframe](./images/Wireframe5.png)
+
+Intended Actions:
+
+- Select account tier (free, business and premium)
 
 **Community Page**
 
+The purpose of this page is to allow users to learn about the application, its history and mission statement.
+
 ![Community Page Wireframe](./images/Wireframe6.png)
+
+Intended Actions:
+
+- Scroll down the page and read about the applications purpose, history mission etc.
 
 **Interactivity Wireframe Page**
 
-This wireframe demonstrates the relationships between screens.
+This wireframe overview demonstrates the interactive relationships between screens at a high level.
 
 ![Interactivity Wireframe Page](./images/newWFsPrototype.png)
+
+Adhering to the app's mission to provide a simple platform for creating surveys and gathering insightful results, the wireframes above reflect this vision by prioritising MVP functionality, clean and straightforward layout, balanced space distribution, and clear, intuitive intended actions.
 
 ### Initial Wireframes Design
 
