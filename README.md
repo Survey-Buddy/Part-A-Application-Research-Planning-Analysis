@@ -12,6 +12,8 @@
 
 ### ▪ Application Table of Contents
 
+**_Due to the header drop downs, the table of contents is inactive. To access the contents, please click on the arrow to the left of "View"._**
+
 <details>
 <summary>View</summary>
 <br>
@@ -544,6 +546,8 @@ The frontend will utilise reusable **React components** wherever possible to ali
 
 A robust file system ensures that the application can scale effectively without becoming overly complex. It adheres to the **separation of concerns** principle, grouping related functionalities together while keeping unrelated files and directories separate. This structure enhances maintainability and makes it easier for new developers or team members to navigate and contribute to the project, even if they are unfamiliar with the source code.
 
+Over the past year of the course, I’ve learned that keeping things separated whenever possible is an effective way to reduce frustrating bugs and improve clarity about each file’s purpose.
+
 ### Model View Controller Express Architecture
 
 ![MVC Diagram](./images/mvc_express.png)
@@ -803,13 +807,13 @@ To manage the development of my survey app, I used a **Trello board** structured
 #### **1. Sprint Planning**
 
 - Tasks are broken down into manageable and actionable cards within the **To Do** column.
-- Each card represents a clear deliverable or functionality, such as implementing survey creation, authentication, or data visualisation analytics.
-- Tasks are prioritised based on user needs, technical dependencies, and project goals.
+- Each card represents a clear deliverable or functionality, such as implementing wireframes, DFDs, or user personas.
+- Tasks in Part-B are prioritised based on user needs, technical dependencies, and project goals.
 
 #### **2. Focused Execution**
 
-- I select tasks from the **To Do** column and move them to **Doing**, focusing on one task, or related tasks, at a time to maintain efficiency.
-- Each sprint focuses on completing a single card or a set of related cards within a short time frame.
+- I select tasks from the **To Do** column and move them to **Doing**, focusing on one task, or related tasks, at a time to maintain efficiency and limit time wastage.
+- Each sprint focuses on completing a single card or a set of related cards within a short time frame of around 5 days.
 
 #### **3. Iterative Development**
 
@@ -820,13 +824,14 @@ To manage the development of my survey app, I used a **Trello board** structured
 
 - After review, tasks are either:
   - Improved and refined based on identified gaps or optimisations.
-  - Moved to the **Signed Off** column once they meet the required standards and are considered complete.
-- This step mimics the retrospective phase of Agile, focusing on learning and refining my work iteratively.
+  - Moved to the **Signed Off** column once they meet the required standards and are considered complete, though cards can move back to the doing column at anytime should they require.
+- This step mimics the retrospective phase of Agile Methodology, focusing on learning and refining my work iteratively as a predefined process.
 
 #### **5. Transparency and Adaptability**
 
 - The Trello board provides a clear and transparent overview of the project’s progress, from planned tasks to completed features.
-- If priorities or requirements change, I adapt the task order in the **To Do** column to reflect the new focus areas.
+- If priorities or requirements change, I adapt the task / card order in the **To Do** column to reflect the new focus areas.
+- New cards can be made throughout the project process should they be needed, further providing adaptability to unforeseeable tasks or functionalities.
 
 ### **Why This Process Meets Agile Requirements**
 
