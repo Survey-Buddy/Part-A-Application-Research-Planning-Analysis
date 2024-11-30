@@ -642,7 +642,7 @@ Intended Actions:
 
 **Surveys Page**
 
-The purpose of this page is to allow users to view their created surveys, segregate them by organisation or by tag, perform CRUD operations on them, and click links to view analytics.
+The purpose of this page is to allow users to view their created surveys, segregate them by organisation or by tag, perform CRUD operations, and click links to view analytics.
 
 ![Surveys Page Wireframe](./images/Wireframe2.png)
 
@@ -650,6 +650,8 @@ Intended Actions:
 
 - View existing user created surveys
 - Search for a existing survey
+- Perform CRUD operations
+- Click link to view analytics
 
 **Login Page**
 
@@ -910,6 +912,16 @@ Today I completed a new set of wireframes using Simple Design System components 
 I am now confident that Part-A rubric points of the assignment are all completed to a level of quality, especially given the application is a solo project, and only minor styling edits will now be necesary before the final submission on Sunday.
 
 ![Trello Board 28th Nov](./images/28:11_trello.png)
+
+#### 30th Nov
+
+**Part-A complete!**
+
+Submitted Part-A of the assignment, continued on with the extra tech learning card, and building the backend of Part-B.
+
+![GitHub Contributions Tracker](./images/githubTracker.png)
+
+🎉🎉🎉🎉🎉
 
 </details>
 
