@@ -915,13 +915,15 @@ I am now confident that Part-A rubric points of the assignment are all completed
 
 #### 30th Nov
 
-**Part-A complete!**
+**Part-A complete! 🎉🎉🎉🎉🎉**
 
-Submitted Part-A of the assignment, continued on with the extra tech learning card, and building the backend of Part-B.
+Submitted Part-A of the assignment, continued on with extra tech learning, and building the backend of Part-B.
+
+![Trello Board 30th Nov](./images/30:11_trello.png)
+
+#### November GitHub Contributions
 
 ![GitHub Contributions Tracker](./images/githubTracker.png)
-
-🎉🎉🎉🎉🎉
 
 </details>
 
